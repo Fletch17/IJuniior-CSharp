@@ -2,3 +2,9 @@ c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_Sequence\03_Seq
 c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_Sequence\03_Sequence\bin\Debug\03_Sequence.pdb
 c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_Sequence\03_Sequence\obj\Debug\03_Sequence.exe
 c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_Sequence\03_Sequence\obj\Debug\03_Sequence.pdb
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\03_Sequence\03_Sequence\bin\Debug\03_Sequence.exe
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\03_Sequence\03_Sequence\bin\Debug\03_Sequence.pdb
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\03_Sequence\03_Sequence\obj\Debug\03_Sequence.csproj.AssemblyReference.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\03_Sequence\03_Sequence\obj\Debug\03_Sequence.csproj.CoreCompileInputs.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\03_Sequence\03_Sequence\obj\Debug\03_Sequence.exe
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\03_Sequence\03_Sequence\obj\Debug\03_Sequence.pdb
