@@ -1,0 +1,4 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_Pictures\04_Pictures\bin\Debug\04_Pictures.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_Pictures\04_Pictures\bin\Debug\04_Pictures.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_Pictures\04_Pictures\obj\Debug\04_Pictures.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_Pictures\04_Pictures\obj\Debug\04_Pictures.pdb

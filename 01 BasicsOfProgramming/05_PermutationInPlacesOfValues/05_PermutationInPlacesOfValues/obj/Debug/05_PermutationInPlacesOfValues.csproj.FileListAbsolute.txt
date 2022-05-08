@@ -1,0 +1,4 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_PermutationInPlacesOfValues\05_PermutationInPlacesOfValues\bin\Debug\05_PermutationInPlacesOfValues.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_PermutationInPlacesOfValues\05_PermutationInPlacesOfValues\bin\Debug\05_PermutationInPlacesOfValues.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_PermutationInPlacesOfValues\05_PermutationInPlacesOfValues\obj\Debug\05_PermutationInPlacesOfValues.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_PermutationInPlacesOfValues\05_PermutationInPlacesOfValues\obj\Debug\05_PermutationInPlacesOfValues.pdb

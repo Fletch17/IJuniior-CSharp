@@ -1,0 +1,4 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_Sequence\03_Sequence\bin\Debug\03_Sequence.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_Sequence\03_Sequence\bin\Debug\03_Sequence.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_Sequence\03_Sequence\obj\Debug\03_Sequence.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_Sequence\03_Sequence\obj\Debug\03_Sequence.pdb

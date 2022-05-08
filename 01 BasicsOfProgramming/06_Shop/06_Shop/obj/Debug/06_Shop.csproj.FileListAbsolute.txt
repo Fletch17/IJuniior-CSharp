@@ -1,0 +1,4 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_Shop\06_Shop\bin\Debug\06_Shop.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_Shop\06_Shop\bin\Debug\06_Shop.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_Shop\06_Shop\obj\Debug\06_Shop.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_Shop\06_Shop\obj\Debug\06_Shop.pdb

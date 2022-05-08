@@ -1,0 +1,4 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\02_ExitControl\02_ExitControl\bin\Debug\02_ExitControl.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\02_ExitControl\02_ExitControl\bin\Debug\02_ExitControl.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\02_ExitControl\02_ExitControl\obj\Debug\02_ExitControl.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\02_ExitControl\02_ExitControl\obj\Debug\02_ExitControl.pdb

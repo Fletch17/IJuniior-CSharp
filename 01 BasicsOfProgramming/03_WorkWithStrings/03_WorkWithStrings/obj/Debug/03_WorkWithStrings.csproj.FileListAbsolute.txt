@@ -1,0 +1,4 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_WorkWithStrings\03_WorkWithStrings\bin\Debug\03_WorkWithStrings.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_WorkWithStrings\03_WorkWithStrings\bin\Debug\03_WorkWithStrings.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_WorkWithStrings\03_WorkWithStrings\obj\Debug\03_WorkWithStrings.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\03_WorkWithStrings\03_WorkWithStrings\obj\Debug\03_WorkWithStrings.pdb

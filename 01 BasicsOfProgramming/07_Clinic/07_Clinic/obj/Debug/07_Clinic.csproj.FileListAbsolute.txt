@@ -1,0 +1,4 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\07_Clinic\07_Clinic\bin\Debug\07_Clinic.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\07_Clinic\07_Clinic\bin\Debug\07_Clinic.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\07_Clinic\07_Clinic\obj\Debug\07_Clinic.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\07_Clinic\07_Clinic\obj\Debug\07_Clinic.pdb

@@ -1,0 +1,5 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\01_Loops\01_Loops\bin\Debug\01_Loops.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\01_Loops\01_Loops\bin\Debug\01_Loops.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\01_Loops\01_Loops\obj\Debug\01_Loops.csprojResolveAssemblyReference.cache
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\01_Loops\01_Loops\obj\Debug\01_Loops.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\01_Loops\01_Loops\obj\Debug\01_Loops.pdb

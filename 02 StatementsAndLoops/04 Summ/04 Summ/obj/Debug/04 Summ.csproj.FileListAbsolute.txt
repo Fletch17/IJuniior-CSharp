@@ -1,0 +1,4 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04 Summ\04 Summ\bin\Debug\04 Summ.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04 Summ\04 Summ\bin\Debug\04 Summ.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04 Summ\04 Summ\obj\Debug\04 Summ.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04 Summ\04 Summ\obj\Debug\04 Summ.pdb

@@ -1,0 +1,5 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Converter\bin\Debug\05_Converter.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Converter\bin\Debug\05_Converter.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Converter\obj\Debug\05_Converter.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Converter\obj\Debug\05_Converter.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Converter\obj\Debug\05_Converter.csprojResolveAssemblyReference.cache
