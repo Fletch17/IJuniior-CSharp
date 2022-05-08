@@ -7,12 +7,12 @@ namespace _04_Summ
         static void Main(string[] args)
         {
             Random random = new Random();
-            int startNumber = 0;
-            int endNumber = 101;
+            int startNumberForRandom = 0;
+            int endNumberForRandom = 100;
             int summ = 0;
             int firstDivider = 3;
             int secondDivider = 5;
-            int number = random.Next(startNumber, endNumber);
+            int number = random.Next(startNumberForRandom, endNumberForRandom + 1);
 
             for (int i = 0; i <= number; i++)
             {
