@@ -6,13 +6,17 @@ namespace _04_Summ
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
-            int number = rand.Next(0, 101);
-            var summ = 0;
+            Random random = new Random();
+            int startNumber = 0;
+            int endNumber = 101;
+            int summ = 0;
+            int firstDivider = 3;
+            int secondDivider = 5;
+            int number = random.Next(startNumber, endNumber);
 
             for (int i = 0; i <= number; i++)
             {
-                if ((i % 3 == 0) || (i % 5 == 0))
+                if ((i % firstDivider == 0) || (i % secondDivider == 0))
                 {
                     summ += i;
                 }
