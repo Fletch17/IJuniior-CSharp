@@ -8,8 +8,9 @@ namespace _03_Sequence
         {
             int startNumber = 5;
             int stopNumber = 96;
+            int step = 7;
 
-            for (int i = startNumber; i <= stopNumber; i += 7)
+            for (int i = startNumber; i <= stopNumber; i += step)
             {
                 Console.WriteLine(i);
             }
