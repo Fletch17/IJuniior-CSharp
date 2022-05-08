@@ -12,13 +12,12 @@ namespace _06_Shop
 
             Console.Write("Введиле кол-во золота: ");
             gold = Convert.ToInt32(Console.ReadLine());
-
             Console.WriteLine("Сколько кристаллов хотите купить? Цена за 1 кристалл " + price + " золота.");
             crystals = Convert.ToInt32(Console.ReadLine());
 
             gold -= crystals * price;
 
-            Console.WriteLine("Золото: "+gold);
+            Console.WriteLine("Золото: " + gold);
             Console.WriteLine("Кристаллы: " + crystals);
         }
     }

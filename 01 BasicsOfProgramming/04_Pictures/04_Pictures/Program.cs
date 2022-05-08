@@ -10,8 +10,9 @@ namespace _04_Pictures
             int picturesInRow = 3;
             int completedRows = pictureCount / picturesInRow;
             int remainingPictures = pictureCount % picturesInRow;
-            Console.WriteLine("Заполненных рядов - "+completedRows);
-            Console.WriteLine("Оставшиеся картинки - "+remainingPictures);
+
+            Console.WriteLine($"Заполненных рядов - {completedRows}");
+            Console.WriteLine($"Оставшиеся картинки - {remainingPictures}");
         }
     }
 }

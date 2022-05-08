@@ -11,7 +11,7 @@ namespace _05_PermutationInPlacesOfValues
             string tempName = name;
             string tempSurname = surname;
 
-            Console.WriteLine(name+" "+surname);
+            Console.WriteLine(name + " " + surname);
 
             name = tempSurname;
             surname = tempName;

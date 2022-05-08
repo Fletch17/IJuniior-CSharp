@@ -19,7 +19,6 @@ namespace _03_WorkWithStrings
             city = Console.ReadLine();
             Console.WriteLine("Кем работаете?");
             profession = Console.ReadLine();
-
             Console.WriteLine("Вас зовут " + name + ", Вам " + age + " лет, живете в городе " + city + ", работаете " + profession + ".");
         }
     }

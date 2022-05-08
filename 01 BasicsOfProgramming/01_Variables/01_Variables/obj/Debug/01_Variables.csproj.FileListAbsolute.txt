@@ -1,0 +1,6 @@
+E:\Projects GitHub\IJuniior-CSharp\01 BasicsOfProgramming\01_Variables\01_Variables\bin\Debug\01_Variables.exe
+E:\Projects GitHub\IJuniior-CSharp\01 BasicsOfProgramming\01_Variables\01_Variables\bin\Debug\01_Variables.pdb
+E:\Projects GitHub\IJuniior-CSharp\01 BasicsOfProgramming\01_Variables\01_Variables\obj\Debug\01_Variables.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\01 BasicsOfProgramming\01_Variables\01_Variables\obj\Debug\01_Variables.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\01 BasicsOfProgramming\01_Variables\01_Variables\obj\Debug\01_Variables.exe
+E:\Projects GitHub\IJuniior-CSharp\01 BasicsOfProgramming\01_Variables\01_Variables\obj\Debug\01_Variables.pdb
