@@ -6,19 +6,21 @@ namespace _07_Clinic
     {
         static void Main(string[] args)
         {
-            int minutesForOneHuman = 10;
-            int humans;
-            int minutes;
-            int hours;
+            int minutesForOnePatient = 10;
+            int patients;
+            int minutesForWaiting;
+            int hoursForWaiting;
             int minutesPerHour = 60;
+            int timeForAllPatients;
 
             Console.Write("Введите кол-во людей в очереди: ");
-            humans = Convert.ToInt16(Console.ReadLine());
+            patients = Convert.ToInt16(Console.ReadLine());
 
-            minutes = humans * minutesForOneHuman % minutesPerHour;
-            hours = humans * minutesForOneHuman / minutesPerHour;
+            timeForAllPatients = patients * minutesForOnePatient;
+            minutesForWaiting = timeForAllPatients % minutesPerHour;
+            hoursForWaiting = timeForAllPatients / minutesPerHour;
 
-            Console.WriteLine($"Вы должны отстоять в очереди:  {hours} часа и {minutes} минут.");
+            Console.WriteLine($"Вы должны отстоять в очереди:  {hoursForWaiting} часа и {minutesForWaiting} минут.");
         }
     }
 }
