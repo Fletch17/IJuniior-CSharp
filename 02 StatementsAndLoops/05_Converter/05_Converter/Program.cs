@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace _05_Converter
 {
@@ -9,77 +6,130 @@ namespace _05_Converter
     {
         static void Main(string[] args)
         {
-            int rubCount = 1000;
-            int usdCount = 300;
-            int eurCount = 300;
-
-            float rubToUsd = 60f;
-            float usdToRub = 0.16f;
-            float rubToEur = 80f;
-            float eurToRub = 0.125f;
-            float usdToEur = 0.75f;
-            float eurToUsd = 1.33f;
-
-            float coefficient;
-
+            float rubCount = 10000f;
+            float usdCount = 100f;
+            float eurCount = 50f;
+            float rubToUsd = 65f;
+            float usdToRub = 0.016f;
+            float eurToUsd = 0.95f;
+            float usdToEur = 1.05f;
+            float rubToEur = 75f;
+            float eurToRub = 0.014f;
+            string userChoiceSell;
+            string userChoiceBuy;
+            float userInput;
+            string continueOrExit;
             bool isWork = true;
-            string userInput;
+
+            Console.Write("Добро пожаловать в банк! Здесь вы можете обеменивать рубли, доллары и евро между собой.\n");
+            Console.Write("Ваш баланс: " + rubCount + " рублей, " + usdCount + " долларов, " + eurCount + " евро.\n");
 
             while (isWork)
             {
-                Console.WriteLine("Ваш баланс: rub - " + rubCount + ", usd - " + usdCount + ", eur - " + eurCount + ".");
-                Console.WriteLine("1. Rub->Usd.\n2. Usd->Rub.\n3. Rub->Eur.\n4. Eur->Rub.\n5. Usd->Eur.\n6. Eur->Usd.\n7. Выйти.\nВыберите пункт:");
-                userInput = Console.ReadLine();
-                switch (userInput)
+                Console.Write("1.Рубли - rub\n2.Доллары - usd\n3.Евро - eur\nВведите наименование валюты, которую хотите приобрести: ");
+                userChoiceBuy = Console.ReadLine();
+                Console.Write("Введите наименование валюты, которую хотите потратить: ");
+                userChoiceSell = Console.ReadLine();
+                Console.Write("Сколько вы хотите обменять? ");
+                userInput = Convert.ToSingle(Console.ReadLine());
+
+                switch (userChoiceSell)
                 {
-                    case "1":
-                        coefficient = rubToUsd;
+                    case "rub":
+                        if (rubCount < userInput)
+                        {
+                            Console.WriteLine("Недостаточно средств");
+                            break;
+                        }
+                        else
+                        {
+                            switch (userChoiceBuy)
+                            {
+                                case "usd":
+                                    rubCount -= userInput;
+                                    usdCount += (userInput / rubToUsd);
+                                    break;
+                                case "eur":
+                                    rubCount -= userInput;
+                                    eurCount += (userInput / rubToEur);
+                                    break;
+                                default:
+                                    Console.Write("Ошибка ввода валюты");
+                                    break;
+                            }
+                            break;
+                        }
+                    case "usd":
+                        if (usdCount < userInput)
+                        {
+                            Console.WriteLine("Недостаточно средств");
+                            break;
+                        }
+                        else
+                        {
+                            switch (userChoiceBuy)
+                            {
+                                case "rub":
+                                    usdCount -= userInput;
+                                    rubCount += (userInput / usdToRub);
+                                    break;
+                                case "eur":
+                                    usdCount -= userInput;
+                                    eurCount += (userInput / usdToEur);
+                                    break;
+                                default:
+                                    Console.Write("Ошибка ввода валюты");
+                                    break;
+                            }
+                            break;
+                        }
+                    case "eur":
+                        if (eurCount < userInput)
+                        {
+                            Console.WriteLine("Недостаточно средств");
+                            break;
+                        }
+                        else
+                        {
+                            switch (userChoiceBuy)
+                            {
+                                case "usd":
+                                    eurCount -= userInput;
+                                    usdCount += (userInput / eurToUsd);
+                                    break;
+                                case "rub":
+                                    eurCount -= userInput;
+                                    rubCount += (userInput / eurToRub);
+                                    break;
+                                default:
+                                    Console.Write("Ошибка ввода валюты");
+                                    break;
+                            }
+                            break;
+                        }
+                    default:
+                        Console.WriteLine("Ошибка ввода валюты");
                         break;
-                    case "2":
-                        coefficient = usdToRub;
+                }
+
+                Console.WriteLine("Ваш баланс: " + rubCount + " рублей, " + usdCount + " долларов, " + eurCount + " евро.");
+                Console.Write("Хотите продолжить? y/n  ");
+                continueOrExit = Console.ReadLine();
+
+                switch (continueOrExit)
+                {
+                    case "y":
                         break;
-                    case "3":
-                        coefficient = rubToEur;
-                        break;
-                    case "4":
-                        coefficient = eurToRub;
-                        break;
-                    case "5":
-                        coefficient = usdToEur;
-                        break;
-                    case "6":
-                        coefficient = eurToUsd;
-                        break;
-                    case "7":
+                    case "n":
                         isWork = false;
                         break;
                     default:
-                        Console.WriteLine("Веверная команда.");
-                        break;  
-                }
-
-                Console.WriteLine("Сколько хотите преобрести валюты: ");
-                Convert.ToString(coefficient);
-                Convert.
-            }
-        }
-
-        private static void Convert()
-        {
-            Console.WriteLine("Какую валюту хотите купить?");
-
-            while (true)
-            {
-                string userInput = Console.ReadLine();
-                switch (userInput)
-                {
-                    case"1":
-
+                        Console.WriteLine("Ошибка ввода");
                         break;
-
                 }
             }
-
         }
     }
 }
+
+

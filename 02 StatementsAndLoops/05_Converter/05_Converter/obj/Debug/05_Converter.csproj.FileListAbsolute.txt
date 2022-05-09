@@ -3,3 +3,9 @@ c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Co
 c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Converter\obj\Debug\05_Converter.exe
 c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Converter\obj\Debug\05_Converter.pdb
 c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_Converter\05_Converter\obj\Debug\05_Converter.csprojResolveAssemblyReference.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\05_Converter\05_Converter\obj\Debug\05_Converter.csproj.AssemblyReference.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\05_Converter\05_Converter\obj\Debug\05_Converter.csproj.CoreCompileInputs.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\05_Converter\05_Converter\obj\Debug\05_Converter.exe
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\05_Converter\05_Converter\bin\Debug\05_Converter.exe
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\05_Converter\05_Converter\bin\Debug\05_Converter.pdb
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\05_Converter\05_Converter\obj\Debug\05_Converter.pdb
