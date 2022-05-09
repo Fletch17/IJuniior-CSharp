@@ -1,0 +1,16 @@
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\06_ConsoleMenu.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\06_ConsoleMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\06_ConsoleMenu.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\06_ConsoleMenu.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\06_ConsoleMenu.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\bin\Debug\net5.0\06_ConsoleMenu.exe
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\bin\Debug\net5.0\06_ConsoleMenu.deps.json
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\bin\Debug\net5.0\06_ConsoleMenu.runtimeconfig.json
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\bin\Debug\net5.0\06_ConsoleMenu.runtimeconfig.dev.json
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\bin\Debug\net5.0\06_ConsoleMenu.dll
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\bin\Debug\net5.0\06_ConsoleMenu.pdb
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\06_ConsoleMenu.dll
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\refint\06_ConsoleMenu.dll
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\06_ConsoleMenu.pdb
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\06_ConsoleMenu.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\06_ConsoleMenu\06_ConsoleMenu\obj\Debug\net5.0\ref\06_ConsoleMenu.dll
