@@ -1,0 +1,16 @@
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\bin\Debug\net5.0\07_NameInSquare.exe
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\bin\Debug\net5.0\07_NameInSquare.deps.json
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\bin\Debug\net5.0\07_NameInSquare.runtimeconfig.json
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\bin\Debug\net5.0\07_NameInSquare.runtimeconfig.dev.json
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\bin\Debug\net5.0\07_NameInSquare.dll
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\bin\Debug\net5.0\07_NameInSquare.pdb
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\07_NameInSquare.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\07_NameInSquare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\07_NameInSquare.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\07_NameInSquare.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\07_NameInSquare.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\07_NameInSquare.dll
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\refint\07_NameInSquare.dll
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\07_NameInSquare.pdb
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\07_NameInSquare.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\07_NameInSquare\07_NameInSquare\obj\Debug\net5.0\ref\07_NameInSquare.dll
