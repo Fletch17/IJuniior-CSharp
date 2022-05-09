@@ -1,0 +1,16 @@
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.exe
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.deps.json
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.runtimeconfig.json
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.runtimeconfig.dev.json
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.dll
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.pdb
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.dll
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\refint\09_Multiples.dll
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.pdb
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\ref\09_Multiples.dll
