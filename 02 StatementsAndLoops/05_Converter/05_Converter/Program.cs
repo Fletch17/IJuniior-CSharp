@@ -6,7 +6,7 @@ namespace _05_Converter
     {
         static void Main(string[] args)
         {
-            float rubCount = 10000f;
+            float rubCount = 1000f;
             float usdCount = 100f;
             float eurCount = 50f;
             float rubToUsd = 65f;
