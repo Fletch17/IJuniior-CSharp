@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sergei\\source\\repos\\09_Multiples\\09_Multiples\\09_Multiples.csproj",
+      "projectUniqueName": "e:\\Projects GitHub\\IJuniior-CSharp\\02 StatementsAndLoops\\09_Multiples\\09_Multiples\\09_Multiples.csproj",
       "projectName": "09_Multiples",
-      "projectPath": "C:\\Users\\Sergei\\source\\repos\\09_Multiples\\09_Multiples\\09_Multiples.csproj",
+      "projectPath": "e:\\Projects GitHub\\IJuniior-CSharp\\02 StatementsAndLoops\\09_Multiples\\09_Multiples\\09_Multiples.csproj",
       "packagesPath": "C:\\Users\\Sergei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sergei\\source\\repos\\09_Multiples\\09_Multiples\\obj\\",
+      "outputPath": "e:\\Projects GitHub\\IJuniior-CSharp\\02 StatementsAndLoops\\09_Multiples\\09_Multiples\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

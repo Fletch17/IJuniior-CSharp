@@ -14,3 +14,19 @@ C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\refint\0
 C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.pdb
 C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\09_Multiples\09_Multiples\obj\Debug\net5.0\ref\09_Multiples.dll
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.exe
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.deps.json
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.runtimeconfig.json
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.runtimeconfig.dev.json
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.dll
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\bin\Debug\net5.0\09_Multiples.pdb
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.csproj.AssemblyReference.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.GeneratedMSBuildEditorConfig.editorconfig
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.AssemblyInfoInputs.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.AssemblyInfo.cs
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.csproj.CoreCompileInputs.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.dll
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\refint\09_Multiples.dll
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.pdb
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\09_Multiples.genruntimeconfig.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\09_Multiples\09_Multiples\obj\Debug\net5.0\ref\09_Multiples.dll
