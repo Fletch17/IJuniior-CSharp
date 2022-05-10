@@ -1,0 +1,16 @@
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\bin\Debug\net5.0\10_PoerOfTwo.exe
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\bin\Debug\net5.0\10_PoerOfTwo.deps.json
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\bin\Debug\net5.0\10_PoerOfTwo.runtimeconfig.json
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\bin\Debug\net5.0\10_PoerOfTwo.runtimeconfig.dev.json
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\bin\Debug\net5.0\10_PoerOfTwo.dll
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\bin\Debug\net5.0\10_PoerOfTwo.pdb
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\10_PoerOfTwo.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\10_PoerOfTwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\10_PoerOfTwo.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\10_PoerOfTwo.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\10_PoerOfTwo.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\10_PoerOfTwo.dll
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\refint\10_PoerOfTwo.dll
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\10_PoerOfTwo.pdb
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\10_PoerOfTwo.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\10_PoerOfTwo\10_PoerOfTwo\obj\Debug\net5.0\ref\10_PoerOfTwo.dll

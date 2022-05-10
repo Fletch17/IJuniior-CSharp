@@ -1,0 +1,16 @@
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\bin\Debug\net5.0\10_PowerOfTwo.exe
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\bin\Debug\net5.0\10_PowerOfTwo.deps.json
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\bin\Debug\net5.0\10_PowerOfTwo.runtimeconfig.json
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\bin\Debug\net5.0\10_PowerOfTwo.runtimeconfig.dev.json
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\bin\Debug\net5.0\10_PowerOfTwo.dll
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\bin\Debug\net5.0\10_PowerOfTwo.pdb
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\10_PowerOfTwo.csproj.AssemblyReference.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\10_PowerOfTwo.GeneratedMSBuildEditorConfig.editorconfig
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\10_PowerOfTwo.AssemblyInfoInputs.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\10_PowerOfTwo.AssemblyInfo.cs
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\10_PowerOfTwo.csproj.CoreCompileInputs.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\10_PowerOfTwo.dll
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\refint\10_PowerOfTwo.dll
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\10_PowerOfTwo.pdb
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\10_PowerOfTwo.genruntimeconfig.cache
+e:\Projects GitHub\IJuniior-CSharp\02 StatementsAndLoops\10_PowerOfTwo\10_PowerOfTwo\obj\Debug\net5.0\ref\10_PowerOfTwo.dll
