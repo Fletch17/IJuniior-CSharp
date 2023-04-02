@@ -16,7 +16,7 @@ namespace _11_Brackets
     {
         static void Main(string[] args)
         {
-            string text = "(((()(()))"; 
+            string text = "((()(()))"; 
             int depth = 0; 
             int maxDepth = 0; 
 
