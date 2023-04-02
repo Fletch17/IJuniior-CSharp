@@ -1,0 +1,16 @@
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\bin\Debug\net5.0\11_Brackets.exe
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\bin\Debug\net5.0\11_Brackets.deps.json
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\bin\Debug\net5.0\11_Brackets.runtimeconfig.json
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\bin\Debug\net5.0\11_Brackets.runtimeconfig.dev.json
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\bin\Debug\net5.0\11_Brackets.dll
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\bin\Debug\net5.0\11_Brackets.pdb
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\11_Brackets.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\11_Brackets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\11_Brackets.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\11_Brackets.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\11_Brackets.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\11_Brackets.dll
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\refint\11_Brackets.dll
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\11_Brackets.pdb
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\11_Brackets.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\11_Brackets\11_Brackets\obj\Debug\net5.0\ref\11_Brackets.dll
