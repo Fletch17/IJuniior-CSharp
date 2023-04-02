@@ -18,11 +18,13 @@ namespace _11_Brackets
         {
             string text = "((()(()))"; 
             int depth = 0; 
-            int maxDepth = 0; 
+            int maxDepth = 0;
+            char openBracket = '(';
+            char closeBracket = ')';
 
             foreach (char symbol in text)
             {
-                if (symbol == '(')
+                if (symbol == openBracket)
                 {
                     depth++;
 
@@ -31,7 +33,7 @@ namespace _11_Brackets
                         maxDepth = depth;
                     }
                 }
-                else if (symbol == ')')
+                else if (symbol == closeBracket)
                 {
                     depth--;
 
