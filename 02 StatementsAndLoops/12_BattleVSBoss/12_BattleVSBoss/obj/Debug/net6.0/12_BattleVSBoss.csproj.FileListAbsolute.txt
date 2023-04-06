@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\12_BattleVSBoss.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\12_BattleVSBoss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\12_BattleVSBoss.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\12_BattleVSBoss.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\12_BattleVSBoss.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\bin\Debug\net6.0\12_BattleVSBoss.exe
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\bin\Debug\net6.0\12_BattleVSBoss.deps.json
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\bin\Debug\net6.0\12_BattleVSBoss.runtimeconfig.json
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\bin\Debug\net6.0\12_BattleVSBoss.dll
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\bin\Debug\net6.0\12_BattleVSBoss.pdb
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\12_BattleVSBoss.dll
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\refint\12_BattleVSBoss.dll
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\12_BattleVSBoss.pdb
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\12_BattleVSBoss.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\12_BattleVSBoss\12_BattleVSBoss\obj\Debug\net6.0\ref\12_BattleVSBoss.dll
