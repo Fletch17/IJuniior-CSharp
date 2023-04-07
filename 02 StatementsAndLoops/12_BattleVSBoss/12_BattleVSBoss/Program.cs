@@ -4,10 +4,11 @@
     {
         static void Main(string[] args)
         {
-            const int fireBall = 1;
-            const int fireFenix = 2;
-            const int fireWall = 3;
-            const int fireRain = 4;
+            const int FireBall = 1;
+            const int FireFenix = 2;
+            const int FireWall = 3;
+            const int FireRain = 4;
+
             Random random = new Random();
             string userInput;
             int userHealth = 500;
@@ -41,10 +42,10 @@
             while (isBattle)
             {
                 Console.WriteLine("Ваше здоровье: {0}\nЗдоровье босса: {1}\n", userHealth, bossHealth);
-                Console.WriteLine("{0}. {1} (серия наносит урон x{2}, при использовании другого навыка серия прерывается) - {3} урона.", fireBall, fireBallName, fireBallMultiplier, fireBallDamage);
-                Console.WriteLine("{0}. {1} - {2} урона.", fireFenix, fireFenixName, fireFenixDamage);
-                Console.WriteLine("{0}. {1} (дает {2}% шанс нанести урон x{3} навыком Огненный ливень) - {4} урона.", fireWall, fireWallName, fireRainMultiplierChance, fireRainMultiplier, fireWallDamage);
-                Console.WriteLine("{0}. {1} - {2} урона.", fireRain, fireRainName, fireRainDamage);
+                Console.WriteLine("{0}. {1} (серия наносит урон x{2}, при использовании другого навыка серия прерывается) - {3} урона.", FireBall, fireBallName, fireBallMultiplier, fireBallDamage);
+                Console.WriteLine("{0}. {1} - {2} урона.", FireFenix, fireFenixName, fireFenixDamage);
+                Console.WriteLine("{0}. {1} (дает {2}% шанс нанести урон x{3} навыком Огненный ливень) - {4} урона.", FireWall, fireWallName, fireRainMultiplierChance, fireRainMultiplier, fireWallDamage);
+                Console.WriteLine("{0}. {1} - {2} урона.", FireRain, fireRainName, fireRainDamage);
                 isChoiseCorrect = true;
 
                 while (isChoiseCorrect)
