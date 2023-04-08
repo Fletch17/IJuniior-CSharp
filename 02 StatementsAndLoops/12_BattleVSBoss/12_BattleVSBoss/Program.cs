@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            const int FireBall = 1;
-            const int FireFenix = 2;
-            const int FireWall = 3;
-            const int FireRain = 4;
+            const string FireBall = "1";
+            const string FireFenix = "2";
+            const string FireWall = "3";
+            const string FireRain = "4";
 
             Random random = new Random();
             string userInput;
@@ -56,7 +56,7 @@
 
                     switch (userInput)
                     {
-                        case "1":
+                        case FireBall:
                             if (isFireBallCombo)
                             {
                                 userDamage = fireBallDamage * fireBallMultiplier;
@@ -70,18 +70,18 @@
                             isFireRainCombo = false;
                             break;
 
-                        case "2":
+                        case FireFenix:
                             isFireBallCombo = false;
                             userDamage = fireFenixDamage;
                             break;
 
-                        case "3":
+                        case FireWall:
                             isFireBallCombo = false;
                             isFireRainCombo = true;
                             userDamage = fireWallDamage;
                             break;
 
-                        case "4":
+                        case FireRain:
                             isFireBallCombo = false;
 
                             if (isFireRainCombo && random.Next(100) > fireRainMultiplierChance)
