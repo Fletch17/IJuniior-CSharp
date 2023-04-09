@@ -13,7 +13,7 @@
             int[,] numbers = new int[RowCount, ColumnCount];
             int summ = 0;
             int productOfNumbers = 1;
-            int roworSearch = 1;
+            int rowForSearch = 1;
             int columnForSearch = 0;
 
             for (int i = 0; i < numbers.GetLength(0); i++)
@@ -36,7 +36,7 @@
 
             for (int i = 0; i < numbers.GetLength(1); i++)
             {
-                summ += numbers[roworSearch, i];
+                summ += numbers[rowForSearch, i];
             }
 
             for (int i = 0; i < numbers.GetLength(0); i++)
@@ -44,7 +44,7 @@
                 productOfNumbers *= numbers[i, columnForSearch];
             }
 
-            Console.WriteLine("Сумма строки #{0} - {1}", roworSearch, summ);
+            Console.WriteLine("Сумма строки #{0} - {1}", rowForSearch, summ);
             Console.WriteLine("Произведение столбца #{0} - {1}", columnForSearch, productOfNumbers);
         }
     }
