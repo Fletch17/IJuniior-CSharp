@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.exe
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.deps.json
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.runtimeconfig.json
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.dll
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.pdb
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.dll
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\refint\02_LargestElement.dll
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.pdb
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\ref\02_LargestElement.dll
