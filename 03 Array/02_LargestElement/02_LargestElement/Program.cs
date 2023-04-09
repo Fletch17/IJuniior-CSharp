@@ -4,43 +4,68 @@
     {
         static void Main(string[] args)
         {
+            const int rowCount = 10;
+            const int columnCount = 10;
+
             Random random = new Random();
-            int[,] array = new int[10, 10];
-            int minimumValueInArray = 0;
-            int maximumValueInArray = 50;
-            int maximumValue = 0;
+            int[,] numbers = new int[rowCount, columnCount];
+            int minimumValueInNumbersArray = 0;
+            int maximumValueInNumbersArray = 50;
+            int maximumValue;
+            int setValue = 0;
 
             Console.WriteLine("Исходная матрица:");
 
-            for (int i = 0; i < array.GetLength(0); i++)
+            for (int i = 0; i < numbers.GetLength(0); i++)
             {
-                for (int j = 0; j < array.GetLength(1); j++)
+                for (int j = 0; j < numbers.GetLength(1); j++)
                 {
-                    array[i, j] = random.Next(minimumValueInArray, maximumValueInArray);
-                    Console.Write(array[i, j] + "\t");
+                    numbers[i, j] = random.Next(minimumValueInNumbersArray, maximumValueInNumbersArray);
+                }
+            }
 
-                    if (maximumValue < array[i, j])
-                    {
-                        maximumValue = array[i, j];
-                    }
+            for (int i = 0; i < numbers.GetLength(0); i++)
+            {
+                for (int j = 0; j < numbers.GetLength(1); j++)
+                {
+                    Console.Write(numbers[i, j] + "\t");
                 }
 
                 Console.WriteLine();
             }
 
+            maximumValue = numbers[0, 0];
+
+            for (int i = 0; i < numbers.GetLength(0); i++)
+            {
+                for (int j = 0; j < numbers.GetLength(1); j++)
+                {
+                    if (maximumValue < numbers[i, j])
+                    {
+                        maximumValue = numbers[i, j];
+                    }
+                }
+            }
+
             Console.WriteLine($"Максимальное значение: {maximumValue}");
             Console.WriteLine("Полученная матрица:");
 
-            for (int i = 0; i < array.GetLength(0); i++)
+            for (int i = 0; i < numbers.GetLength(0); i++)
             {
-                for (int j = 0; j < array.GetLength(1); j++)
+                for (int j = 0; j < numbers.GetLength(1); j++)
                 {
-                    if (array[i, j] == maximumValue)
+                    if (numbers[i, j] == maximumValue)
                     {
-                        array[i, j] = 0;
+                        numbers[i, j] = setValue;
                     }
+                }
+            }
 
-                    Console.Write(array[i, j] + "\t");
+            for (int i = 0; i < numbers.GetLength(0); i++)
+            {
+                for (int j = 0; j < numbers.GetLength(1); j++)
+                {
+                    Console.Write(numbers[i, j] + "\t");
                 }
 
                 Console.WriteLine();

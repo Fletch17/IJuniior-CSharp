@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.
 C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.pdb
 C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\02_LargestElement\02_LargestElement\obj\Debug\net6.0\ref\02_LargestElement.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.deps.json
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\bin\Debug\net6.0\02_LargestElement.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\refint\02_LargestElement.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\02_LargestElement.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\02_LargestElement\02_LargestElement\obj\Debug\net6.0\ref\02_LargestElement.dll

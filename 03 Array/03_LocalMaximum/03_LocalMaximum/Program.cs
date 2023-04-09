@@ -8,12 +8,12 @@
 
             Random random = new Random();
             int[] numbers = new int[Size];
-            int minimumValueInNumbers = 0;
-            int maximumValueInNumbers = 20;
+            int minimumValueInNumbersArray = 0;
+            int maximumValueInNumbersArray = 20;
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                numbers[i] = random.Next(minimumValueInNumbers, maximumValueInNumbers);
+                numbers[i] = random.Next(minimumValueInNumbersArray, maximumValueInNumbersArray);
             }
 
             for (int i = 0; i < numbers.Length; i++)
