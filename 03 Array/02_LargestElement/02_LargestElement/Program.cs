@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            const int rowCount = 10;
-            const int columnCount = 10;
+            const int RowCount = 10;
+            const int ColumnCount = 10;
 
             Random random = new Random();
-            int[,] numbers = new int[rowCount, columnCount];
+            int[,] numbers = new int[RowCount, ColumnCount];
             int minimumValueInNumbersArray = 0;
             int maximumValueInNumbersArray = 50;
             int maximumValue;

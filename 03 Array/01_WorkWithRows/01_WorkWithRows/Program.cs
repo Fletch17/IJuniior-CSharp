@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            const int rowCount = 5;
-            const int columnCount = 5;
+            const int RowCount = 5;
+            const int ColumnCount = 5;
 
             Random random = new Random();
             int minimumValueInNumbersArray = 0;
             int maximumValueInNumbersArray = 6;
-            int[,] numbers = new int[rowCount, columnCount];
+            int[,] numbers = new int[RowCount, ColumnCount];
             int summ = 0;
             int productOfNumbers = 1;
             int roworSearch = 1;
