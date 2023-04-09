@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\re
 C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.pdb
 C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\ref\03_LocalMaximum.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.deps.json
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\refint\03_LocalMaximum.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\ref\03_LocalMaximum.dll
