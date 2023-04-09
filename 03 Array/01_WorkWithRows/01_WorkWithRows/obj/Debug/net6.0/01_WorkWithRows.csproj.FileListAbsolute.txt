@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\re
 C:\Users\Sergei\source\repos\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.pdb
 C:\Users\Sergei\source\repos\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\ref\01_WorkWithRows.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\bin\Debug\net6.0\01_WorkWithRows.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\bin\Debug\net6.0\01_WorkWithRows.deps.json
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\bin\Debug\net6.0\01_WorkWithRows.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\bin\Debug\net6.0\01_WorkWithRows.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\bin\Debug\net6.0\01_WorkWithRows.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\refint\01_WorkWithRows.dll
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\01_WorkWithRows.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\01_WorkWithRows\01_WorkWithRows\obj\Debug\net6.0\ref\01_WorkWithRows.dll

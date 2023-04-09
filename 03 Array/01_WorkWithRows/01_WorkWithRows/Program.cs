@@ -2,13 +2,11 @@
 {
     internal class Program
     {
-        static Random random;
-
         static void Main(string[] args)
         {
-            random = new Random();
+            Random random = new Random();
             int minimumValue = 0;
-            int maximumValue = 30;
+            int maximumValue = 6;
             int[,] array = new int[5, 5];
             int summ = 0;
             int productOfNumbers = 1;
@@ -25,26 +23,14 @@
                 Console.WriteLine();
             }
 
-            for (int i = 0; i < array.GetLength(0); i++)
+            for (int i = 0; i < array.GetLength(1); i++)
             {
-                for (int j = 0; j < array.GetLength(1); j++)
-                {
-                    if (i == 1)
-                    {
-                        summ += array[i, j];
-                    }
-                }
+                summ += array[row, i];
             }
 
             for (int i = 0; i < array.GetLength(0); i++)
             {
-                for (int j = 0; j < array.GetLength(1); j++)
-                {
-                    if (j == 0)
-                    {
-                        productOfNumbers *= array[i, j];
-                    }
-                }
+                productOfNumbers *= array[i, column];
             }
 
             Console.WriteLine("Сумма строки #{0} - {1}", row, summ);
