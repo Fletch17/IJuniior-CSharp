@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.exe
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.deps.json
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.runtimeconfig.json
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.dll
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\bin\Debug\net6.0\03_LocalMaximum.pdb
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.dll
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\refint\03_LocalMaximum.dll
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.pdb
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\03_LocalMaximum.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\03_LocalMaximum\03_LocalMaximum\obj\Debug\net6.0\ref\03_LocalMaximum.dll
