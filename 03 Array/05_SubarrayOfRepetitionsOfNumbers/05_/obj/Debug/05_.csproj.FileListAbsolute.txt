@@ -1,0 +1,10 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_\05_\bin\Debug\05_.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_\05_\bin\Debug\05_.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_\05_\obj\Debug\05_.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\05_\05_\obj\Debug\05_.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\05_SubarrayOfRepetitionsOfNumbers\05_\bin\Debug\05_SubarrayOfRepetitionsOfNumbers.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\05_SubarrayOfRepetitionsOfNumbers\05_\bin\Debug\05_SubarrayOfRepetitionsOfNumbers.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\05_SubarrayOfRepetitionsOfNumbers\05_\obj\Debug\05_.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\05_SubarrayOfRepetitionsOfNumbers\05_\obj\Debug\05_.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\05_SubarrayOfRepetitionsOfNumbers\05_\obj\Debug\05_SubarrayOfRepetitionsOfNumbers.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\05_SubarrayOfRepetitionsOfNumbers\05_\obj\Debug\05_SubarrayOfRepetitionsOfNumbers.pdb

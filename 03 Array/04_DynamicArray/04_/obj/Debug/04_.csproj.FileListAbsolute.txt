@@ -1,0 +1,11 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_\04_\bin\Debug\04_.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_\04_\bin\Debug\04_.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_\04_\obj\Debug\04_.csprojResolveAssemblyReference.cache
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_\04_\obj\Debug\04_.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\04_\04_\obj\Debug\04_.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\04_DynamicArray\04_\bin\Debug\04_DynamicArray.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\04_DynamicArray\04_\bin\Debug\04_DynamicArray.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\04_DynamicArray\04_\obj\Debug\04_.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\04_DynamicArray\04_\obj\Debug\04_.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\04_DynamicArray\04_\obj\Debug\04_DynamicArray.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\04_DynamicArray\04_\obj\Debug\04_DynamicArray.pdb

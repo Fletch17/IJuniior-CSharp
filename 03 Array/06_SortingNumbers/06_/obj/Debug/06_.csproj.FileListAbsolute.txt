@@ -1,0 +1,11 @@
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_\06_\bin\Debug\06_.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_\06_\bin\Debug\06_.pdb
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_\06_\obj\Debug\06_.csprojResolveAssemblyReference.cache
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_\06_\obj\Debug\06_.exe
+c:\users\dolgovsyu.ckba\documents\visual studio 2012\Projects\06_\06_\obj\Debug\06_.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\06_SortingNumbers\06_\bin\Debug\06_SortingNumbers.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\06_SortingNumbers\06_\bin\Debug\06_SortingNumbers.pdb
+E:\Projects GitHub\IJuniior-CSharp\03 Array\06_SortingNumbers\06_\obj\Debug\06_.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\06_SortingNumbers\06_\obj\Debug\06_.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\03 Array\06_SortingNumbers\06_\obj\Debug\06_SortingNumbers.exe
+E:\Projects GitHub\IJuniior-CSharp\03 Array\06_SortingNumbers\06_\obj\Debug\06_SortingNumbers.pdb

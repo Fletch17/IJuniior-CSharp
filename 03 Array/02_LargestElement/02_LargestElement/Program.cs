@@ -12,7 +12,7 @@
             int minimumValueInNumbersArray = 0;
             int maximumValueInNumbersArray = 50;
             int maximumValue;
-            int setValue = 0;
+            int setingValue = 0;
 
             Console.WriteLine("Исходная матрица:");
 
@@ -56,7 +56,7 @@
                 {
                     if (numbers[i, j] == maximumValue)
                     {
-                        numbers[i, j] = setValue;
+                        numbers[i, j] = setingValue;
                     }
                 }
             }
