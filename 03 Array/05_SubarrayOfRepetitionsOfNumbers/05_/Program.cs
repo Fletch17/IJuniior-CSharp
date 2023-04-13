@@ -9,10 +9,9 @@ namespace _05_SubarrayOfRepetitionsOfNumbers
     {
         static void Main(string[] args)
         {
-            const int Size=30;
-
             Random random = new Random();
-            int[] numbers = new int[Size];
+            int size = 30;
+            int[] numbers = new int[size];
             int maximumValueInNumbersArray = 10;
             int minimumValueInNumbersArray= 0;
             int currentNumber;

@@ -1,0 +1,15 @@
+C:\Users\Dread\source\repos\07_\07_\bin\Debug\net6.0\07_.exe
+C:\Users\Dread\source\repos\07_\07_\bin\Debug\net6.0\07_.deps.json
+C:\Users\Dread\source\repos\07_\07_\bin\Debug\net6.0\07_.runtimeconfig.json
+C:\Users\Dread\source\repos\07_\07_\bin\Debug\net6.0\07_.dll
+C:\Users\Dread\source\repos\07_\07_\bin\Debug\net6.0\07_.pdb
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\07_.csproj.AssemblyReference.cache
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\07_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\07_.AssemblyInfoInputs.cache
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\07_.AssemblyInfo.cs
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\07_.csproj.CoreCompileInputs.cache
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\07_.dll
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\refint\07_.dll
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\07_.pdb
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\07_.genruntimeconfig.cache
+C:\Users\Dread\source\repos\07_\07_\obj\Debug\net6.0\ref\07_.dll
