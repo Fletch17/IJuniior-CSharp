@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.exe
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.deps.json
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.runtimeconfig.json
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.dll
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.pdb
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.dll
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\refint\02_UIElement.dll
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.pdb
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\ref\02_UIElement.dll
