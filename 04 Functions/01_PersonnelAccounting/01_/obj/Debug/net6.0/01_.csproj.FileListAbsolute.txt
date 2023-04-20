@@ -13,3 +13,18 @@ C:\Users\Dread\source\repos\01_\01_\obj\Debug\net6.0\refint\01_.dll
 C:\Users\Dread\source\repos\01_\01_\obj\Debug\net6.0\01_.pdb
 C:\Users\Dread\source\repos\01_\01_\obj\Debug\net6.0\01_.genruntimeconfig.cache
 C:\Users\Dread\source\repos\01_\01_\obj\Debug\net6.0\ref\01_.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\bin\Debug\net6.0\01_.exe
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\bin\Debug\net6.0\01_.deps.json
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\bin\Debug\net6.0\01_.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\bin\Debug\net6.0\01_.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\bin\Debug\net6.0\01_.pdb
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\01_.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\01_.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\01_.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\01_.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\01_.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\01_.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\refint\01_.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\01_.pdb
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\01_.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\01_PersonnelAccounting\01_\obj\Debug\net6.0\ref\01_.dll
