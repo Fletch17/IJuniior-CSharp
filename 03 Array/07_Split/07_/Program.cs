@@ -6,7 +6,8 @@
         {
             string message = "Сегодня хороший день";
             string[] arrayWords;
-            arrayWords= message.Split(' ');
+            char symbol = ' ';
+            arrayWords= message.Split(symbol);
 
             foreach(string word in arrayWords)
             {
