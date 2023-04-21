@@ -11,8 +11,9 @@ namespace _02_UIElement
             double maxHP = 100;
             double currentMP = 70;
             double maxMP = 200;
-            double percentHP=(currentHP/maxHP)*100;
-            double percentMP=(currentMP/maxMP)*100;
+            int numberToRepresentMaxPercent = 100;
+            double percentHP=(currentHP/maxHP)* numberToRepresentMaxPercent;
+            double percentMP=(currentMP/maxMP)* numberToRepresentMaxPercent;
 
             DrawBar(percentHP, maxSymbolCount, ConsoleColor.Red);
             Console.WriteLine();
@@ -23,7 +24,8 @@ namespace _02_UIElement
         {
             char symbolValue = '#';
             char symbolNonValue = '_';
-            int symbolCount = (int)Math.Ceiling(((double)maxSymbolCount/ 100) * percentValue);            
+            int numberToRepresentMaxPercent = 100;
+            int symbolCount = (int)Math.Ceiling(((double)maxSymbolCount/ numberToRepresentMaxPercent) * percentValue);            
             ConsoleColor defaultColor = Console.BackgroundColor;
             Console.Write("[");
             Console.BackgroundColor = color;
