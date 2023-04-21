@@ -27,20 +27,18 @@ namespace _02_UIElement
             ConsoleColor defaultColor = Console.BackgroundColor;
             Console.Write("[");
             Console.BackgroundColor = color;
-
-            for (int i = 0; i < symbolCount; i++) 
-            {
-                Console.Write(symbolValue);
-            }
-
+            DrawSymbols(symbolValue, 0, symbolCount);
             Console.BackgroundColor = defaultColor;
-
-            for (int i = symbolCount; i < maxSymbolCount; i++)
-            {
-                Console.Write(symbolNonValue);
-            }
-
+            DrawSymbols(symbolNonValue, symbolCount, maxSymbolCount);
             Console.Write("]");
+        }
+
+        static void DrawSymbols(char symbol, int startIndex,int stopIndex)
+        {
+            for (int i = startIndex; i < stopIndex; i++)
+            {
+                Console.Write(symbol);
+            }
         }
     }
 }

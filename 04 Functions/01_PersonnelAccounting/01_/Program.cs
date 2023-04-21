@@ -16,7 +16,7 @@ namespace _01_PersonnelAccounting
 
             string[] fullNames = new string[0];
             string[] professions = new string[0];
-            bool _isProgrammWrok = true;
+            bool isProgrammWrok = true;
             string userInput;
 
             Console.WriteLine(CommandAddDossier + ". Добавить досье.");
@@ -25,7 +25,7 @@ namespace _01_PersonnelAccounting
             Console.WriteLine(CommandFindDossier + ". Поиск по фамилии.");
             Console.WriteLine(CommandExit + ". Выход.");
 
-            while (_isProgrammWrok)
+            while (isProgrammWrok)
             {
                 Console.Write("\nВведите команду: ");
                 userInput = Console.ReadLine();
@@ -44,7 +44,7 @@ namespace _01_PersonnelAccounting
                             break;
 
                         case CommandDellDossier:
-                            DellDossier(ref fullNames, ref professions);
+                            DeleteDossier(ref fullNames, ref professions);
                             break;
 
                         case CommandFindDossier:
@@ -52,7 +52,7 @@ namespace _01_PersonnelAccounting
                             break;
 
                         case CommandExit:
-                            _isProgrammWrok = false;
+                            isProgrammWrok = false;
                             break;
                     }
                 }
@@ -66,12 +66,12 @@ namespace _01_PersonnelAccounting
         static void AddElementToDossier(ref string[] fullNames, ref string[] professions)
         {
             Console.Write("Введите ФИО: ");
-            AddElementToArray(ref fullNames);
+            fullNames = AddElementToArray(fullNames);
             Console.Write("Введите профессию: ");
-            AddElementToArray(ref professions);
+            professions = AddElementToArray(professions);
         }
 
-        static void AddElementToArray(ref string[] array)
+        static string[] AddElementToArray(string[] array)
         {
             string userInput = Console.ReadLine();
             string[] tempArray = new string[array.Length + 1];
@@ -82,7 +82,7 @@ namespace _01_PersonnelAccounting
             }
 
             tempArray[array.Length] = userInput;
-            array = tempArray;
+            return tempArray;
         }
 
         static void ShowAllDossiers(string[] namesArray, string[] professionsArray)
@@ -95,7 +95,7 @@ namespace _01_PersonnelAccounting
             }
         }
 
-        static void DellElementInArray(ref string[] array, int index)
+        static string[] DeleteElementInArray(string[] array, int index)
         {
             string[] tempArray = new string[array.Length - 1];
             index--;
@@ -110,10 +110,10 @@ namespace _01_PersonnelAccounting
                 tempArray[i - 1] = array[i];
             }
 
-            array = tempArray;
+            return tempArray;
         }
 
-        static void DellDossier(ref string[] fullNames, ref string[] professions)
+        static void DeleteDossier(ref string[] fullNames, ref string[] professions)
         {
             Console.Write("Введите номер сотрудника: ");
             string userInput = Console.ReadLine();
@@ -121,8 +121,8 @@ namespace _01_PersonnelAccounting
 
             if (isInt && index > 0 && index <= fullNames.Length)
             {
-                DellElementInArray(ref fullNames, index);
-                DellElementInArray(ref professions, index);
+                fullNames = DeleteElementInArray(fullNames, index);
+                professions = DeleteElementInArray(professions, index);
             }
             else
             {
@@ -133,12 +133,13 @@ namespace _01_PersonnelAccounting
         static void FindDossierBySurname(string[] fullNameArray, string[] professionsArray)
         {
             Console.Write("Введите фамилию: ");
+            char separatorSymbol = ' ';
             string userInput = Console.ReadLine();
             string[] tempArray;
 
             for (int i = 0; i < fullNameArray.Length; i++)
             {
-                tempArray = fullNameArray[i].Split(' ');
+                tempArray = fullNameArray[i].Split(separatorSymbol);
 
                 if (tempArray[0] == userInput)
                 {

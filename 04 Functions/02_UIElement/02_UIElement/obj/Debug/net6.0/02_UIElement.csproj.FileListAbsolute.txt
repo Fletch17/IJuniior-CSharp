@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\refint\0
 C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.pdb
 C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\02_UIElement\02_UIElement\obj\Debug\net6.0\ref\02_UIElement.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.exe
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.deps.json
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\bin\Debug\net6.0\02_UIElement.pdb
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\refint\02_UIElement.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.pdb
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\02_UIElement.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\02_UIElement\02_UIElement\obj\Debug\net6.0\ref\02_UIElement.dll
