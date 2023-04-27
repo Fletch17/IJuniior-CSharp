@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\bin\Debug\net6.0\03_ReadInt.exe
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\bin\Debug\net6.0\03_ReadInt.deps.json
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\bin\Debug\net6.0\03_ReadInt.runtimeconfig.json
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\bin\Debug\net6.0\03_ReadInt.dll
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\bin\Debug\net6.0\03_ReadInt.pdb
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\03_ReadInt.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\03_ReadInt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\03_ReadInt.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\03_ReadInt.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\03_ReadInt.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\03_ReadInt.dll
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\refint\03_ReadInt.dll
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\03_ReadInt.pdb
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\03_ReadInt.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\03_ReadInt\03_ReadInt\obj\Debug\net6.0\ref\03_ReadInt.dll
