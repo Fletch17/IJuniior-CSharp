@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.exe
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.deps.json
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.runtimeconfig.json
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.dll
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.pdb
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.dll
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\refint\04_BraveNewWorld.dll
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.pdb
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\ref\04_BraveNewWorld.dll
