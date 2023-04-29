@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.exe
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.deps.json
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.runtimeconfig.json
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.dll
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.pdb
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.dll
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\refint\05_Shuffle.dll
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.pdb
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\ref\05_Shuffle.dll
