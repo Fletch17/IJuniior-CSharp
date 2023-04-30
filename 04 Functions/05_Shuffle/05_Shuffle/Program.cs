@@ -6,50 +6,33 @@
         {
             int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-            numbers = Shuffle(numbers);
-
-            foreach (int number in numbers)
-            {
-                Console.Write(number + " ");
-            }
+            ShowArray(numbers);
+            Shuffle(numbers);
+            Console.WriteLine();
+            ShowArray(numbers);
         }
 
-        static int[] Shuffle(int[] array)
+        static void Shuffle(int[] array)
         {
             Random random = new Random();
-            int[] tempArray = new int[array.Length];
-            int index;
+            int randomIndex;
+            int tempNumber;
 
-            for (int i = 0; i < array.Length; i++)
+            for (int i = array.Length - 1; i > 0; i--)
             {
-                tempArray[i] = array[i];
+                randomIndex = random.Next(i + 1);
+                tempNumber = array[i];
+                array[i] = array[randomIndex];
+                array[randomIndex] = tempNumber;
             }
-
-            for (int i = 0; i < array.Length; i++)
-            {
-                index = random.Next(tempArray.Length);
-                array[i] = tempArray[index];
-                tempArray = DeleteElement(tempArray, index);
-            }
-
-            return array;
         }
 
-        static int[] DeleteElement(int[] array, int index)
+        static void ShowArray(int[] array)
         {
-            int[] temparray = new int[array.Length - 1];
-
-            for (int i = 0; i < index; i++)
+            foreach (var element in array)
             {
-                temparray[i] = array[i];
+                Console.Write(element + " ");
             }
-
-            for (int i = index + 1; i < array.Length; i++)
-            {
-                temparray[i - 1] = array[i];
-            }
-
-            return temparray;
         }
     }
 }

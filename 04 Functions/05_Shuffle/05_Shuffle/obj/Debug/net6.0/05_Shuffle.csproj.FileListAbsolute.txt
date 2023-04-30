@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\refint\05_Sh
 C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.pdb
 C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\05_Shuffle\05_Shuffle\obj\Debug\net6.0\ref\05_Shuffle.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\refint\05_Shuffle.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.pdb
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.exe
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.deps.json
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\bin\Debug\net6.0\05_Shuffle.pdb
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\05_Shuffle.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\05_Shuffle\05_Shuffle\obj\Debug\net6.0\ref\05_Shuffle.dll
