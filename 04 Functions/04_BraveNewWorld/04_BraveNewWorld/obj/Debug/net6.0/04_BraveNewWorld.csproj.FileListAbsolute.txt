@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\
 C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.pdb
 C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\ref\04_BraveNewWorld.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.exe
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.deps.json
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\bin\Debug\net6.0\04_BraveNewWorld.pdb
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\refint\04_BraveNewWorld.dll
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.pdb
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\04_BraveNewWorld.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\04 Functions\04_BraveNewWorld\04_BraveNewWorld\obj\Debug\net6.0\ref\04_BraveNewWorld.dll

@@ -2,7 +2,17 @@
 {
     internal class Program
     {
-        static char[,] map = {
+        static void Main(string[] args)
+        {
+            const ConsoleKey KeyMoveUp = ConsoleKey.W;
+            const ConsoleKey KeyMoveDown = ConsoleKey.S;
+            const ConsoleKey KeyMoveLeft = ConsoleKey.A;
+            const ConsoleKey KeyMoveRight = ConsoleKey.D;
+
+            char playerSymbol = '&';
+            int positionX = 0;
+            int positionY = 0;
+            char[,] map = {
                 {'#', '#','#','#','#','#','#','#','#', '#', '#', '#', '#', '#', '#', '#', '#'},
                 {'#', ' ',' ',' ',' ',' ',' ',' ',' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
                 {'#', ' ','#','#','#','#',' ',' ',' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
@@ -16,35 +26,29 @@
                 {'#', '&',' ','#',' ',' ',' ',' ',' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', '#' },
                 {'#', '#','#','#','#','#','#','#','#', '#', '#', '#', '#', '#', '#', '#', '#'}
             };
-        static int x;
-        static int y;
 
-        static void Main(string[] args)
-        {
-            char playerSymbol = '&';
-
-            while (true) 
+            while (true)
             {
-                DrawMap();
-                FindPlayerPosition(ref x, ref y, playerSymbol);
+                DrawMap(map);
+                FindPlayerPosition(ref positionX, ref positionY, map, playerSymbol);
                 var key = Console.ReadKey();
 
                 switch (key.Key)
                 {
-                    case ConsoleKey.W:
-                        Move(0, -1);
+                    case KeyMoveUp:
+                        Move(0, -1, ref positionX, ref positionY, map);
                         break;
 
-                    case ConsoleKey.S:
-                        Move(0, 1);
+                    case KeyMoveDown:
+                        Move(0, 1, ref positionX, ref positionY, map);
                         break;
 
-                    case ConsoleKey.A:
-                        Move(-1, 0);
+                    case KeyMoveLeft:
+                        Move(-1, 0, ref positionX, ref positionY, map);
                         break;
 
-                    case ConsoleKey.D:
-                        Move(1, 0);
+                    case KeyMoveRight:
+                        Move(1, 0, ref positionX, ref positionY, map);
                         break;
                 }
 
@@ -52,22 +56,22 @@
             }
         }
 
-        static void Move(int deltaX,int deltaY)
+        static void Move(int deltaX, int deltaY, ref int positionX, ref int positionY, char[,] map)
         {
             char playerSymbol = '&';
             char wallSymbol = '#';
             char empySymbol = ' ';
 
-            if (map[ y + deltaY, x + deltaX] != wallSymbol)
+            if (map[positionY + deltaY, positionX + deltaX] != wallSymbol)
             {
-                map[y + deltaY,x + deltaX] = playerSymbol;
-                map[y, x] = empySymbol;
-                x += deltaX;
-                y += deltaY;
+                map[positionY + deltaY, positionX + deltaX] = playerSymbol;
+                map[positionY, positionX] = empySymbol;
+                positionX += deltaX;
+                positionY += deltaY;
             }
         }
 
-        static void FindPlayerPosition(ref int x, ref int y, char playerSymbol)
+        static void FindPlayerPosition(ref int x, ref int y, char[,] map, char playerSymbol)
         {
             for (int i = 0; i < map.GetLength(0); i++)
             {
@@ -82,7 +86,7 @@
             }
         }
 
-        static void DrawMap()
+        static void DrawMap(char[,] map)
         {
             for (int i = 0; i < map.GetLength(0); i++)
             {
