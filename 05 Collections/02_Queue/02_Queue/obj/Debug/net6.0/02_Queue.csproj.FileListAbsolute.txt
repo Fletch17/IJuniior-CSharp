@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\bin\Debug\net6.0\02_Queue.exe
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\bin\Debug\net6.0\02_Queue.deps.json
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\bin\Debug\net6.0\02_Queue.runtimeconfig.json
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\bin\Debug\net6.0\02_Queue.dll
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\bin\Debug\net6.0\02_Queue.pdb
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\02_Queue.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\02_Queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\02_Queue.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\02_Queue.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\02_Queue.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\02_Queue.dll
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\refint\02_Queue.dll
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\02_Queue.pdb
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\02_Queue.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\02_Queue\02_Queue\obj\Debug\net6.0\ref\02_Queue.dll
