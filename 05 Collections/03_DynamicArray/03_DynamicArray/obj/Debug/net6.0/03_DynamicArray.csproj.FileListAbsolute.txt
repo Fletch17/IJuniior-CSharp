@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\bin\Debug\net6.0\03_DynamicArray.exe
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\bin\Debug\net6.0\03_DynamicArray.deps.json
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\bin\Debug\net6.0\03_DynamicArray.runtimeconfig.json
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\bin\Debug\net6.0\03_DynamicArray.dll
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\bin\Debug\net6.0\03_DynamicArray.pdb
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\03_DynamicArray.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\03_DynamicArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\03_DynamicArray.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\03_DynamicArray.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\03_DynamicArray.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\03_DynamicArray.dll
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\refint\03_DynamicArray.dll
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\03_DynamicArray.pdb
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\03_DynamicArray.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\03_DynamicArray\03_DynamicArray\obj\Debug\net6.0\ref\03_DynamicArray.dll
