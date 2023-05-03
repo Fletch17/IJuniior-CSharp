@@ -71,7 +71,6 @@
             for (int i = 0; i < dossiers.Count; i++)
             {
                 Console.WriteLine(i + ". " + dossiers.ElementAt(i).Key + " - " + dossiers.ElementAt(i).Value);
-
             }
         }
     }
