@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.exe
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.deps.json
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.runtimeconfig.json
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.dll
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.pdb
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.dll
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\refint\04_PersonnelAccounting.dll
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.pdb
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\ref\04_PersonnelAccounting.dll
