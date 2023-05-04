@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\bin\Debug\net6.0\01_WorkingWithClasses.exe
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\bin\Debug\net6.0\01_WorkingWithClasses.deps.json
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\bin\Debug\net6.0\01_WorkingWithClasses.runtimeconfig.json
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\bin\Debug\net6.0\01_WorkingWithClasses.dll
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\bin\Debug\net6.0\01_WorkingWithClasses.pdb
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\01_WorkingWithClasses.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\01_WorkingWithClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\01_WorkingWithClasses.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\01_WorkingWithClasses.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\01_WorkingWithClasses.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\01_WorkingWithClasses.dll
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\refint\01_WorkingWithClasses.dll
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\01_WorkingWithClasses.pdb
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\01_WorkingWithClasses.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\01_WorkingWithClasses\01_WorkingWithClasses\obj\Debug\net6.0\ref\01_WorkingWithClasses.dll
