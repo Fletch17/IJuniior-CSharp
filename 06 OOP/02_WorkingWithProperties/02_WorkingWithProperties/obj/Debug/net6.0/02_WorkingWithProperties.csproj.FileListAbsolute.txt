@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\02_WorkingWithProperties\02_WorkingWithProperties\o
 C:\Users\Sergei\source\repos\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.pdb
 C:\Users\Sergei\source\repos\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\ref\02_WorkingWithProperties.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\bin\Debug\net6.0\02_WorkingWithProperties.exe
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\bin\Debug\net6.0\02_WorkingWithProperties.deps.json
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\bin\Debug\net6.0\02_WorkingWithProperties.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\bin\Debug\net6.0\02_WorkingWithProperties.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\bin\Debug\net6.0\02_WorkingWithProperties.pdb
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\refint\02_WorkingWithProperties.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.pdb
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\02_WorkingWithProperties.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\02_WorkingWithProperties\02_WorkingWithProperties\obj\Debug\net6.0\ref\02_WorkingWithProperties.dll
