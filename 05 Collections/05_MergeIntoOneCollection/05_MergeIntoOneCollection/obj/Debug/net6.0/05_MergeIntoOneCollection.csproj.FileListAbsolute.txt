@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection
 C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.pdb
 C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\ref\05_MergeIntoOneCollection.dll
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.exe
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.deps.json
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.dll
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.pdb
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.dll
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\refint\05_MergeIntoOneCollection.dll
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.pdb
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\ref\05_MergeIntoOneCollection.dll

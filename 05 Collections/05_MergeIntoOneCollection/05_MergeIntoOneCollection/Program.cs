@@ -19,11 +19,11 @@
 
         static void FillList(string[]array, List<string> list)
         {
-            foreach (var item in array)
+            foreach (string arrayElement in array)
             {
-                if (list.Contains(item) == false)
+                if (list.Contains(arrayElement) == false)
                 {
-                    list.Add(item);
+                    list.Add(arrayElement);
                 }
             }
         }
