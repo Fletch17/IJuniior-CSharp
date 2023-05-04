@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.exe
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.deps.json
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.runtimeconfig.json
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.dll
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\bin\Debug\net6.0\05_MergeIntoOneCollection.pdb
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.dll
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\refint\05_MergeIntoOneCollection.dll
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.pdb
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\05_MergeIntoOneCollection.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\05_MergeIntoOneCollection\05_MergeIntoOneCollection\obj\Debug\net6.0\ref\05_MergeIntoOneCollection.dll

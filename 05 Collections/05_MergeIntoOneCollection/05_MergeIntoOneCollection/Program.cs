@@ -1,0 +1,34 @@
+﻿namespace _05_MergeIntoOneCollection
+{
+    //Есть два массива строк.
+    //    Надо их объединить в одну коллекцию, исключив повторения, не используя Linq.
+    //    Пример: { "1", "2", "1"} + {"3", "2"} => { "1", "2", "3"}
+internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] firstNumbers = { "1", "2", "1" };
+            string[] secondNumbers = { "3", "2" };
+            List<string> resultNumbers = new List<string>();
+
+            FillList(firstNumbers,resultNumbers);
+            FillList(secondNumbers,resultNumbers);
+
+            foreach (string number in resultNumbers) 
+            {
+                Console.Write(number + " ");
+            }
+        }
+
+        static void FillList(string[]array, List<string> list)
+        {
+            foreach (var item in array)
+            {
+                if (list.Contains(item) == false)
+                {
+                    list.Add(item);
+                }
+            }
+        }
+    }
+}
