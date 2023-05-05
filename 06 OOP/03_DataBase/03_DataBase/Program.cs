@@ -13,7 +13,7 @@
 
             bool isProgrammWork = true;
             string userInput;
-            DataBase dataBase = new DataBase();
+            Database dataBase = new Database();
 
             while (isProgrammWork)
             {
@@ -32,11 +32,11 @@
                         break;
 
                     case ComandBanPlayer:
-                        dataBase.ChangePlayerStatus(true);
+                        dataBase.BanPlayer();
                         break;
 
                     case ComandUnbanPlayer:
-                        dataBase.ChangePlayerStatus(false);
+                        dataBase.UnbanPlayer();
                         break;
 
                     case ComandDeletePlayer:
@@ -55,80 +55,47 @@
         }
     }
 
-    class DataBase
+    class Database
     {
         private List<Player> _players;
 
-        public DataBase()
+        public Database()
         {
             _players = new List<Player>();
         }
 
-        public void ChangePlayerStatus(bool ban)
+        public void UnbanPlayer()
         {
-            bool isPlayerExist = IsPlayerExist(out int index);
+            bool isPlayerExist = TryGetPlayer(out Player player);
 
             if (isPlayerExist)
             {
-                _players[index].ChangeBanStatus(ban);
+                player.SetPlayerUnban();
             }
         }
 
-        public bool IsPlayerExist(out int index)
+        public void BanPlayer()
         {
-            string userInput;
-            bool isInt = false;
-            int id = 0;
-            index = 0;
+            bool isPlayerExist = TryGetPlayer(out Player player);
 
-            while (isInt == false)
+            if (isPlayerExist)
             {
-                Console.Write("Введите Id: ");
-                userInput = Console.ReadLine();
-                isInt = int.TryParse(userInput, out id);
+                player.SetPlayerBan();
             }
-
-            for (int i = 0; i < _players.Count; i++)
-            {
-                if (_players[i].Id == id)
-                {
-                    index = i;
-                    return true;
-                }
-            }
-
-            return false;
         }
 
         public void DeletePlayer()
         {
-            bool isPlayerExist = IsPlayerExist(out int index);
+            bool isPlayerExist = TryGetPlayer(out Player player);
 
             if (isPlayerExist)
             {
-                _players.RemoveAt(index);
+                _players.Remove(player);
             }
             else
             {
                 Console.WriteLine("Такого Id нет.");
             }
-        }
-
-        public void AddPlayer()
-        {
-            int number = 0;
-            bool isInt = false;
-            Console.Write("Введите имя: ");
-            string name = Console.ReadLine();
-
-            while (isInt == false)
-            {
-                Console.Write("Введите уровень: ");
-                string level = Console.ReadLine();
-                isInt = int.TryParse(level, out number);
-            }
-
-            _players.Add(new Player(name, number));
         }
 
         public void ShowInfo()
@@ -141,11 +108,58 @@
                 Console.WriteLine($"{player.Id}. {player.Name} - {player.Level} лвл. {banInfo}");
             }
         }
+
+        public void AddPlayer()
+        {
+            bool isInt = false;
+            Console.Write("Введите имя: ");
+            string name = Console.ReadLine();
+            int number = TryGetInteger("Введите уровень: ");
+            _players.Add(new Player(name, number));
+        }
+
+        private int TryGetInteger(string message)
+        {
+            int number = 0;
+            bool isInt = false;
+
+            while (isInt == false)
+            {
+                Console.Write(message);
+                string userInput = Console.ReadLine();
+                isInt = int.TryParse(userInput, out number);
+            }
+
+            return number;
+        }
+
+        private bool TryGetPlayer(out Player player)
+        {
+            string userInput;
+            bool isInt = false;
+            player = new Player();
+            int id = TryGetInteger("Введите Id: ");
+
+            for (int i = 0; i < _players.Count; i++)
+            {
+                if (_players[i].Id == id)
+                {
+                    player = _players[i];
+                    return true;
+                }
+            }
+
+            return false;
+        }
     }
 
     class Player
     {
-        static private int _id;
+        private static int _id;
+
+        public Player()
+        {
+        }
 
         public Player(string name, int level)
         {
@@ -160,9 +174,14 @@
         public int Level { get; private set; }
         public bool IsBan { get; private set; }
 
-        public void ChangeBanStatus(bool isBan)
+        public void SetPlayerBan()
         {
-            IsBan = isBan;
+            IsBan = true;
+        }
+
+        public void SetPlayerUnban()
+        {
+            IsBan = false;
         }
     }
 }
