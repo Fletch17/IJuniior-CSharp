@@ -4,33 +4,38 @@
     {
         static void Main(string[] args)
         {
-            Player player = new Player(4,7);
-            PlayerDrawer playerDrawer = new PlayerDrawer();
+            Player player = new Player(5, 3);
+            Renderer renderer = new Renderer();
 
-            playerDrawer.Draw(player.PositionX, player.PositionY);
+            renderer.Draw(player.PositionX, player.PositionY, '@');
         }
     }
 
     class Player
     {
-        private int _positionX;
-        private int _positionY;
-        
         public Player(int positionX, int positionY)
         {
-            _positionX = positionX;
-            _positionY = positionY;
+            PositionX = positionX;
+            PositionY = positionY;
         }
 
-        public int PositionX => _positionX;
-        public int PositionY => _positionY;
+        public int PositionX { get; private set; }
+        public int PositionY { get; private set; }
     }
 
-    class PlayerDrawer
+    class Renderer
     {
-        public void Draw(int positionX, int positionY)
+        public void Draw(int positionX, int positionY, char symbol)
         {
-            Console.WriteLine($"Отрисовал игрока по координатам X:Y - {positionX}:{positionY}");
+            if (positionX >= 0 && positionY >= 0)
+            {
+                Console.SetCursorPosition(positionX, positionY);
+                Console.WriteLine(symbol);
+            }
+            else
+            {
+                Console.WriteLine("Error");
+            }
         }
     }
 }
