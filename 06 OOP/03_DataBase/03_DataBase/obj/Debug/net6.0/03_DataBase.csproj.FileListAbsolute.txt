@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\03_DataBase.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\03_DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\03_DataBase.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\03_DataBase.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\03_DataBase.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\bin\Debug\net6.0\03_DataBase.exe
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\bin\Debug\net6.0\03_DataBase.deps.json
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\bin\Debug\net6.0\03_DataBase.runtimeconfig.json
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\bin\Debug\net6.0\03_DataBase.dll
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\bin\Debug\net6.0\03_DataBase.pdb
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\03_DataBase.dll
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\refint\03_DataBase.dll
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\03_DataBase.pdb
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\03_DataBase.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\03_DataBase\03_DataBase\obj\Debug\net6.0\ref\03_DataBase.dll
