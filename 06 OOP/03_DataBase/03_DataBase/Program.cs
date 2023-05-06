@@ -66,21 +66,17 @@
 
         public void UnbanPlayer()
         {
-            bool isPlayerExist = TryGetPlayer(out Player player);
-
-            if (isPlayerExist)
+            if (TryGetPlayer(out Player player))
             {
-                player.SetPlayerUnban();
+                player.SetUnban();
             }
         }
 
         public void BanPlayer()
         {
-            bool isPlayerExist = TryGetPlayer(out Player player);
-
-            if (isPlayerExist)
+            if (TryGetPlayer(out Player player))
             {
-                player.SetPlayerBan();
+                player.SetBan();
             }
         }
 
@@ -111,7 +107,6 @@
 
         public void AddPlayer()
         {
-            bool isInt = false;
             Console.Write("Введите имя: ");
             string name = Console.ReadLine();
             int number = TryGetInteger("Введите уровень: ");
@@ -135,9 +130,7 @@
 
         private bool TryGetPlayer(out Player player)
         {
-            string userInput;
-            bool isInt = false;
-            player = new Player();
+            player = null;
             int id = TryGetInteger("Введите Id: ");
 
             for (int i = 0; i < _players.Count; i++)
@@ -157,10 +150,6 @@
     {
         private static int _id;
 
-        public Player()
-        {
-        }
-
         public Player(string name, int level)
         {
             Id = ++_id;
@@ -174,12 +163,12 @@
         public int Level { get; private set; }
         public bool IsBan { get; private set; }
 
-        public void SetPlayerBan()
+        public void SetBan()
         {
             IsBan = true;
         }
 
-        public void SetPlayerUnban()
+        public void SetUnban()
         {
             IsBan = false;
         }
