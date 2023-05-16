@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace _04_CardDeck
+﻿namespace _04_CardDeck
 {
     internal class Program
     {
@@ -13,16 +11,8 @@ namespace _04_CardDeck
             string[] denominations = { "6", "7", "8", "9", "10", "В", "Д", "К", "Т" };
             bool isProgramWork = true;
             string userInput;
-            Deck deck = new Deck();
+            Deck deck = new Deck(suits, denominations);
             Player player = new Player();
-
-            for (int i = 0; i < suits.Length; i++)
-            {
-                for (int j = 0; j < denominations.Length; j++)
-                {
-                    deck.AddCard(new Card(suits[i], denominations[j]));
-                }
-            }
 
             Console.WriteLine($"{CommandDrawOneByOneCards}. Тянуть по одной карте.");
             Console.WriteLine($"{CommandDrawSomeCards}. Вытянуть сразу несколько карт.");
@@ -68,39 +58,73 @@ namespace _04_CardDeck
 
     class Deck
     {
-        private List<Card> _cards;
+        private Stack<Card> _cards;
 
         public Deck()
         {
-            _cards = new List<Card>();
+            _cards = new Stack<Card>();
+        }
+
+        public Deck(string[] suits, string[] denominations)
+        {
+            _cards = new Stack<Card>();
+            Fill(suits, denominations);
+            Shuffle();
         }
 
         public int CardCount => _cards.Count;
 
-        public Card GetCard(int index)
+        public void AddCardToDeck(Deck customDeck)
         {
-            return _cards[index];
+            _cards?.Push(customDeck._cards.Pop());
         }
 
-        public void RemoveCard(Card card)
+        public void ShowInfo()
         {
-            _cards.Remove(card);
+            foreach (Card card in _cards)
+            {
+                Console.WriteLine(card.Denomination + " " + card.Suit);
+            }
         }
 
-        public void AddCard(Card card)
+        private void Shuffle()
         {
-            _cards.Add(card);
+            Random random = new Random();
+            int randomIndex;
+            Card tempCard;
+            Card[] tempCards = new Card[_cards.Count];
+
+            _cards.CopyTo(tempCards, 0);
+
+            for (int i = 0; i < tempCards.Length; i++)
+            {
+                randomIndex = random.Next(i, tempCards.Length);
+                tempCard = tempCards[i];
+                tempCards[i] = tempCards[randomIndex];
+                tempCards[randomIndex] = tempCard;
+            }
+
+            _cards = new Stack<Card>(tempCards);
+        }
+
+        private void Fill(string[] suits, string[] denominations)
+        {
+            for (int i = 0; i < suits.Length; i++)
+            {
+                for (int j = 0; j < denominations.Length; j++)
+                {
+                    _cards.Push(new Card(suits[i], denominations[j]));
+                }
+            }
         }
     }
 
     class Player
     {
-        private static Random _random;
         private Deck _deck;
 
         public Player()
         {
-            _random = new Random();
             _deck = new Deck();
         }
 
@@ -122,7 +146,7 @@ namespace _04_CardDeck
                     {
                         for (int i = 0; i < count; i++)
                         {
-                            AddRandomCardToDeck(customDeck);
+                            _deck.AddCardToDeck(customDeck);
                         }
 
                         isCorrect = true;
@@ -147,20 +171,19 @@ namespace _04_CardDeck
             bool isDrawing = true;
             string userInput;
 
-            AddRandomCardToDeck(customDeck);
+            _deck.AddCardToDeck(customDeck);
 
             while (isDrawing)
             {
                 if (customDeck.CardCount > 0)
                 {
-
-                    Console.Write("Еще тянем? y/n: ");
+                    Console.Write($"Еще тянем? {CommandYes}/{CommandNo}: ");
                     userInput = Console.ReadLine();
 
                     switch (userInput)
                     {
                         case CommandYes:
-                            AddRandomCardToDeck(customDeck);
+                            _deck.AddCardToDeck(customDeck);
                             break;
 
                         case CommandNo:
@@ -183,21 +206,7 @@ namespace _04_CardDeck
         public void ShowDeck()
         {
             Console.WriteLine("Ваша колода:");
-
-            for (int i = 0; i < _deck.CardCount; i++)
-            {
-                Console.WriteLine(_deck.GetCard(i).Denomination + " " + _deck.GetCard(i).Suit);
-            }
-        }
-
-        private void AddRandomCardToDeck(Deck deck)
-        {
-            int index = _random.Next(deck.CardCount);
-            Card card = deck.GetCard(index);
-
-            Console.WriteLine($"Вы вытянули: {card.Denomination} {card.Suit}");
-            _deck.AddCard(card);
-            deck.RemoveCard(card);
+            _deck.ShowInfo();
         }
     }
 }
