@@ -4,43 +4,7 @@
     {
         static void Main(string[] args)
         {
-            const string CommandDrawOneByOneCards = "1";
-            const string CommandDrawSomeCards = "2";
-
-            string[] suits = { "Черви", "Пики", "Буби", "Крести" };
-            string[] denominations = { "6", "7", "8", "9", "10", "В", "Д", "К", "Т" };
-            bool isProgramWork = true;
-            string userInput;
-            Deck deck = new Deck(suits, denominations);
-            Player player = new Player();
-
-            Console.WriteLine($"{CommandDrawOneByOneCards}. Тянуть по одной карте.");
-            Console.WriteLine($"{CommandDrawSomeCards}. Вытянуть сразу несколько карт.");
-
-            while (isProgramWork)
-            {
-                Console.Write("Что делаем? ");
-                userInput = Console.ReadLine();
-
-                switch (userInput)
-                {
-                    case CommandDrawOneByOneCards:
-                        player.DrawOneCard(deck);
-                        isProgramWork = false;
-                        break;
-
-                    case CommandDrawSomeCards:
-                        player.DrawSomeCards(deck);
-                        isProgramWork = false;
-                        break;
-
-                    default:
-                        Console.WriteLine("Команда не корректна.");
-                        break;
-                }
-            }
-
-            player.ShowDeck();
+            new Croupier().Play();
         }
     }
 
@@ -63,28 +27,16 @@
         public Deck()
         {
             _cards = new Stack<Card>();
-        }
-
-        public Deck(string[] suits, string[] denominations)
-        {
-            _cards = new Stack<Card>();
-            Fill(suits, denominations);
+            Fill();
             Shuffle();
         }
 
         public int CardCount => _cards.Count;
+        public bool IsEmpy => _cards.Count == 0;
 
-        public void AddCardToDeck(Deck customDeck)
+        public Card TakeCard()
         {
-            _cards?.Push(customDeck._cards.Pop());
-        }
-
-        public void ShowInfo()
-        {
-            foreach (Card card in _cards)
-            {
-                Console.WriteLine(card.Denomination + " " + card.Suit);
-            }
+            return _cards.Pop();
         }
 
         private void Shuffle()
@@ -107,8 +59,11 @@
             _cards = new Stack<Card>(tempCards);
         }
 
-        private void Fill(string[] suits, string[] denominations)
+        private void Fill()
         {
+            string[] suits = { "Черви", "Пики", "Буби", "Крести" };
+            string[] denominations = { "6", "7", "8", "9", "10", "В", "Д", "К", "Т" };
+
             for (int i = 0; i < suits.Length; i++)
             {
                 for (int j = 0; j < denominations.Length; j++)
@@ -121,17 +76,87 @@
 
     class Player
     {
-        private Deck _deck;
+        private List<Card> _hand;
 
         public Player()
         {
-            _deck = new Deck();
+            _hand = new List<Card>();
         }
 
-        public void DrawSomeCards(Deck customDeck)
+        public void GetCard(Card card)
+        {
+            _hand.Add(card);
+        }
+
+        public void ShowHand()
+        {
+            Console.WriteLine("Ваша колода:");
+
+            foreach (Card card in _hand)
+            {
+                Console.WriteLine(card.Denomination + " " + card.Suit);
+            }
+        }
+    }
+
+    class Croupier
+    {
+        private Deck _deck;
+        private Player _player;
+
+        public Croupier()
+        {
+            _deck = new Deck();
+            _player = new Player();
+        }
+
+        public void Play()
+        {
+            const string CommandDrawOneByOneCards = "1";
+            const string CommandDrawSomeCards = "2";
+
+            bool isProgramWork = true;
+            string userInput;
+
+            Console.WriteLine($"{CommandDrawOneByOneCards}. Тянуть по одной карте.");
+            Console.WriteLine($"{CommandDrawSomeCards}. Вытянуть сразу несколько карт.");
+
+            while (isProgramWork)
+            {
+                Console.Write("Что делаем? ");
+                userInput = Console.ReadLine();
+
+                switch (userInput)
+                {
+                    case CommandDrawOneByOneCards:
+                        DrawOneCard();
+                        isProgramWork = false;
+                        break;
+
+                    case CommandDrawSomeCards:
+                        DrawSomeCard();
+                        isProgramWork = false;
+                        break;
+
+                    default:
+                        Console.WriteLine("Команда не корректна.");
+                        break;
+                }
+            }
+
+            _player.ShowHand();
+        }
+
+        private void DrawSomeCard()
         {
             bool isCorrect = false;
             string userInput;
+
+            if (_deck.IsEmpy)
+            {
+                Console.WriteLine("Колода пуста.");
+                return;
+            }
 
             Console.Write("Сколько карт вытянуть? ");
 
@@ -142,11 +167,11 @@
 
                 if (isInt)
                 {
-                    if (count > 0 && count <= customDeck.CardCount)
+                    if (count > 0 && count <= _deck.CardCount)
                     {
                         for (int i = 0; i < count; i++)
                         {
-                            _deck.AddCardToDeck(customDeck);
+                            _player.GetCard(_deck.TakeCard());
                         }
 
                         isCorrect = true;
@@ -163,7 +188,7 @@
             }
         }
 
-        public void DrawOneCard(Deck customDeck)
+        private void DrawOneCard()
         {
             const string CommandYes = "y";
             const string CommandNo = "n";
@@ -171,11 +196,17 @@
             bool isDrawing = true;
             string userInput;
 
-            _deck.AddCardToDeck(customDeck);
+            if (_deck.IsEmpy)
+            {
+                Console.WriteLine("Колода пуста.");
+                return;
+            }
+
+            _player.GetCard(_deck.TakeCard());
 
             while (isDrawing)
             {
-                if (customDeck.CardCount > 0)
+                if (_deck.IsEmpy == false)
                 {
                     Console.Write($"Еще тянем? {CommandYes}/{CommandNo}: ");
                     userInput = Console.ReadLine();
@@ -183,7 +214,7 @@
                     switch (userInput)
                     {
                         case CommandYes:
-                            _deck.AddCardToDeck(customDeck);
+                            _player.GetCard(_deck.TakeCard());
                             break;
 
                         case CommandNo:
@@ -201,12 +232,6 @@
                     isDrawing = false;
                 }
             }
-        }
-
-        public void ShowDeck()
-        {
-            Console.WriteLine("Ваша колода:");
-            _deck.ShowInfo();
         }
     }
 }

@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\04_CardDeck\04_CardDeck\obj\Debug\net6.0\refint\04_
 C:\Users\Sergei\source\repos\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.pdb
 C:\Users\Sergei\source\repos\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\04_CardDeck\04_CardDeck\obj\Debug\net6.0\ref\04_CardDeck.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\bin\Debug\net6.0\04_CardDeck.exe
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\bin\Debug\net6.0\04_CardDeck.deps.json
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\bin\Debug\net6.0\04_CardDeck.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\bin\Debug\net6.0\04_CardDeck.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\bin\Debug\net6.0\04_CardDeck.pdb
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\refint\04_CardDeck.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.pdb
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\04_CardDeck.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\04_CardDeck\04_CardDeck\obj\Debug\net6.0\ref\04_CardDeck.dll
