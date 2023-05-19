@@ -112,14 +112,14 @@
 
         public void Play()
         {
-            const string CommandDrawOneByOneCards = "1";
-            const string CommandDrawSomeCards = "2";
+            const string CommandTransferOneByOneCards = "1";
+            const string CommandTransferSomeCards = "2";
 
             bool isProgramWork = true;
             string userInput;
 
-            Console.WriteLine($"{CommandDrawOneByOneCards}. Тянуть по одной карте.");
-            Console.WriteLine($"{CommandDrawSomeCards}. Вытянуть сразу несколько карт.");
+            Console.WriteLine($"{CommandTransferOneByOneCards}. Тянуть по одной карте.");
+            Console.WriteLine($"{CommandTransferSomeCards}. Вытянуть сразу несколько карт.");
 
             while (isProgramWork)
             {
@@ -128,13 +128,13 @@
 
                 switch (userInput)
                 {
-                    case CommandDrawOneByOneCards:
-                        DrawOneCard();
+                    case CommandTransferOneByOneCards:
+                        TransferOneByOneCard();
                         isProgramWork = false;
                         break;
 
-                    case CommandDrawSomeCards:
-                        DrawSomeCard();
+                    case CommandTransferSomeCards:
+                        TransferSomeCard();
                         isProgramWork = false;
                         break;
 
@@ -147,7 +147,7 @@
             _player.ShowHand();
         }
 
-        private void DrawSomeCard()
+        private void TransferSomeCard()
         {
             bool isCorrect = false;
             string userInput;
@@ -163,9 +163,8 @@
             while (isCorrect == false)
             {
                 userInput = Console.ReadLine();
-                bool isInt = int.TryParse(userInput, out int count);
 
-                if (isInt)
+                if (int.TryParse(userInput, out int count))
                 {
                     if (count > 0 && count <= _deck.CardCount)
                     {
@@ -188,7 +187,7 @@
             }
         }
 
-        private void DrawOneCard()
+        private void TransferOneByOneCard()
         {
             const string CommandYes = "y";
             const string CommandNo = "n";
