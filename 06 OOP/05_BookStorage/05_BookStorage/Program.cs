@@ -25,9 +25,9 @@
             const string CommandBooksByParameter = "4";
             const string CommandExit = "5";
 
-            bool isProggramWork = true;
+            bool isProgramWork = true;
 
-            while (isProggramWork)
+            while (isProgramWork)
             {
                 Console.WriteLine($"{CommandAddBook}. Добавить книгу.");
                 Console.WriteLine($"{CommandRemoveBook}. Убрать книгу.");
@@ -58,7 +58,7 @@
                         break;
 
                     case CommandExit:
-                        isProggramWork = false;
+                        isProgramWork = false;
                         break;
                 }
             }
