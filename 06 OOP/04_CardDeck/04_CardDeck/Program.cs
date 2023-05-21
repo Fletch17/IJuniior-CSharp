@@ -112,13 +112,13 @@
 
         public void Play()
         {
-            const string CommandTransferOneByOneCards = "1";
+            const string CommandTransferOneCard = "1";
             const string CommandTransferSomeCards = "2";
 
             bool isProgramWork = true;
             string userInput;
 
-            Console.WriteLine($"{CommandTransferOneByOneCards}. Тянуть по одной карте.");
+            Console.WriteLine($"{CommandTransferOneCard}. Вытянуть одну карту.");
             Console.WriteLine($"{CommandTransferSomeCards}. Вытянуть сразу несколько карт.");
 
             while (isProgramWork)
@@ -128,13 +128,13 @@
 
                 switch (userInput)
                 {
-                    case CommandTransferOneByOneCards:
-                        TransferOneByOneCard();
+                    case CommandTransferOneCard:
+                        TransferOneCard();
                         isProgramWork = false;
                         break;
 
                     case CommandTransferSomeCards:
-                        TransferSomeCard();
+                        TransferSomeCards();
                         isProgramWork = false;
                         break;
 
@@ -147,7 +147,7 @@
             _player.ShowHand();
         }
 
-        private void TransferSomeCard()
+        private void TransferSomeCards()
         {
             bool isCorrect = false;
             string userInput;
@@ -187,50 +187,15 @@
             }
         }
 
-        private void TransferOneByOneCard()
+        private void TransferOneCard()
         {
-            const string CommandYes = "y";
-            const string CommandNo = "n";
-
-            bool isDrawing = true;
-            string userInput;
-
             if (_deck.IsEmpy)
             {
                 Console.WriteLine("Колода пуста.");
                 return;
             }
 
-            _player.GetCard(_deck.TakeCard());
-
-            while (isDrawing)
-            {
-                if (_deck.IsEmpy == false)
-                {
-                    Console.Write($"Еще тянем? {CommandYes}/{CommandNo}: ");
-                    userInput = Console.ReadLine();
-
-                    switch (userInput)
-                    {
-                        case CommandYes:
-                            _player.GetCard(_deck.TakeCard());
-                            break;
-
-                        case CommandNo:
-                            isDrawing = false;
-                            break;
-
-                        default:
-                            Console.WriteLine("Команда не корректна.");
-                            break;
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("В колоде не осталось карт.");
-                    isDrawing = false;
-                }
-            }
+            _player.GetCard(_deck.TakeCard());              
         }
     }
 }
