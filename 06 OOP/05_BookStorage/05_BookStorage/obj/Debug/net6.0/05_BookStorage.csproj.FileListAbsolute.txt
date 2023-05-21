@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\bin\Debug\net6.0\05_BookStorage.exe
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\bin\Debug\net6.0\05_BookStorage.deps.json
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\bin\Debug\net6.0\05_BookStorage.runtimeconfig.json
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\bin\Debug\net6.0\05_BookStorage.dll
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\bin\Debug\net6.0\05_BookStorage.pdb
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\05_BookStorage.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\05_BookStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\05_BookStorage.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\05_BookStorage.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\05_BookStorage.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\05_BookStorage.dll
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\refint\05_BookStorage.dll
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\05_BookStorage.pdb
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\05_BookStorage.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\05_BookStorage\05_BookStorage\obj\Debug\net6.0\ref\05_BookStorage.dll
