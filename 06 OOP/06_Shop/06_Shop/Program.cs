@@ -1,4 +1,6 @@
-﻿namespace _06_Shop
+﻿using System.Drawing;
+
+namespace _06_Shop
 {
     internal class Program
     {
@@ -10,13 +12,13 @@
 
     public class Shop
     {
-        private Character _trader;
-        private Character _player;
+        private Trader _trader;
+        private Player _player;
 
         public Shop()
         {
             FillTraderInventory();
-            _player = new Character(300);
+            _player = new Player(300);
         }
 
         public void Play()
@@ -40,7 +42,7 @@
                 switch (userInput)
                 {
                     case CommandBuy:
-                        BuyItem();
+                        StartTrading();
                         break;
                     case CommandShowPlayerInventory:
                         _player.ShowInventory();
@@ -58,9 +60,9 @@
             }
         }
 
-        private void BuyItem()
+        private void StartTrading()
         {
-            bool isBuying = true;
+            bool isTrading = true;
             string userInput;
 
             if (_trader.Inventory.Count == 0)
@@ -69,7 +71,7 @@
                 return;
             }
 
-            while (isBuying)
+            while (isTrading)
             {
                 Console.Write("Введите индекс предмета: ");
 
@@ -82,7 +84,7 @@
                 }
                 else
                 {
-                    if (index >= _trader.Inventory.Count)
+                    if (index >= _trader.Inventory.Count || index < 0)
                     {
                         Console.WriteLine("Индекс не корректен.");
                     }
@@ -90,7 +92,7 @@
                     {
                         Item item = _trader.Inventory[index].Item;
 
-                        if (_player.Gold >= item.Price)
+                        if (_player.CanBuy(item.Price))
                         {
                             _player.DecreaseGold(item.Price);
                             _trader.IncreaseGold(item.Price);
@@ -104,7 +106,7 @@
                             Console.WriteLine("Не хватает монет.");
                         }
 
-                        isBuying = false;
+                        isTrading = false;
                     }
                 }
             }
@@ -117,7 +119,66 @@
             inventory.Add(new Stack(new Item("Зелье ловкости", 75), 10));
             inventory.Add(new Stack(new Item("Зелье интелекта", 100), 10));
             inventory.Add(new Stack(new Item("Зелье выносливости", 50), 15));
-            _trader = new Character(inventory, 1000);
+            _trader = new Trader(inventory, 1000);
+        }
+    }
+
+    public class Player : Character
+    {
+        public Player(int gold) : base(gold)
+        {
+        }
+
+        public void AddItem(Item item)
+        {
+            bool isContains = false;
+
+            foreach (var stack in Inventory)
+            {
+                if (stack.Item.Name == item.Name)
+                {
+                    stack.IncreaseCount();
+                    isContains = true;
+                    break;
+                }
+            }
+
+            if (isContains == false)
+            {
+                Inventory.Add(new Stack(item, 1));
+            }
+        }
+
+        public bool CanBuy(int price)
+        {
+            return Gold - price >= 0 ? true : false;
+        }
+    }
+
+    public class Trader : Character
+    {
+        public Trader(List<Stack> inventory, int gold) : base(inventory, gold)
+        {
+        }
+
+        public void RemoveItem(Item item)
+        {
+            foreach (var stack in Inventory)
+            {
+                if (stack.Item.Name == item.Name)
+                {
+                    if (stack.Count > 1)
+                    {
+                        stack.DecreaseCount();
+                        break;
+                    }
+                    else if (stack.Count == 1)
+                    {
+                        Inventory.Remove(stack);
+                        break;
+                    }
+                }
+            }
         }
     }
 
@@ -148,46 +209,6 @@
             Gold -= gold;
         }
 
-        public void AddItem(Item item)
-        {
-            bool isContains = false;
-
-            foreach (var stack in Inventory)
-            {
-                if (stack.Item.Name == item.Name)
-                {
-                    stack.IncreaseCount();
-                    isContains = true;
-                    break;
-                }
-            }
-
-            if (isContains == false)
-            {
-                Inventory.Add(new Stack(item, 1));
-            }
-        }
-
-        public void RemoveItem(Item item)
-        {
-            foreach (var stack in Inventory)
-            {
-                if (stack.Item.Name == item.Name)
-                {
-                    if (stack.Count > 1)
-                    {
-                        stack.DecreaseCount();
-                        break;
-                    }
-                    else if (stack.Count == 1)
-                    {
-                        Inventory.Remove(stack);
-                        break;
-                    }
-                }
-            }
-        }
-
         public void ShowInventory()
         {
             if (Inventory.Count == 0)
@@ -212,12 +233,6 @@
 
     public class Stack
     {
-        public Stack(string name, int price, int count)
-        {
-            Item = new Item(name, price);
-            Count = count;
-        }
-
         public Stack(Item item, int count)
         {
             Item = item;
