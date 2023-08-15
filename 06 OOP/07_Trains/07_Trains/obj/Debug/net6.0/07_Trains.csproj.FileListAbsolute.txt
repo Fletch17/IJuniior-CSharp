@@ -13,3 +13,18 @@ C:\Users\sylar\source\repos\07_Trains\07_Trains\obj\Debug\net6.0\refint\07_Train
 C:\Users\sylar\source\repos\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.pdb
 C:\Users\sylar\source\repos\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.genruntimeconfig.cache
 C:\Users\sylar\source\repos\07_Trains\07_Trains\obj\Debug\net6.0\ref\07_Trains.dll
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\bin\Debug\net6.0\07_Trains.exe
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\bin\Debug\net6.0\07_Trains.deps.json
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\bin\Debug\net6.0\07_Trains.runtimeconfig.json
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\bin\Debug\net6.0\07_Trains.dll
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\bin\Debug\net6.0\07_Trains.pdb
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.csproj.AssemblyReference.cache
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.AssemblyInfoInputs.cache
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.AssemblyInfo.cs
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.csproj.CoreCompileInputs.cache
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.dll
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\refint\07_Trains.dll
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.pdb
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\07_Trains.genruntimeconfig.cache
+D:\GitHub\IJuniior-CSharp\06 OOP\07_Trains\07_Trains\obj\Debug\net6.0\ref\07_Trains.dll
