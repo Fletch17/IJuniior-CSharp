@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace _06_Shop
+﻿namespace _06_Shop
 {
     internal class Program
     {
@@ -42,7 +40,7 @@ namespace _06_Shop
                 switch (userInput)
                 {
                     case CommandBuy:
-                        StartTrading();
+                        Trading();
                         break;
                     case CommandShowPlayerInventory:
                         _player.ShowInventory();
@@ -60,12 +58,12 @@ namespace _06_Shop
             }
         }
 
-        private void StartTrading()
+        private void Trading()
         {
             bool isTrading = true;
             string userInput;
 
-            if (_trader.Inventory.Count == 0)
+            if (_trader.StackCount == 0)
             {
                 Console.WriteLine("Покупать нечего.");
                 return;
@@ -84,13 +82,13 @@ namespace _06_Shop
                 }
                 else
                 {
-                    if (index >= _trader.Inventory.Count || index < 0)
+                    if (index >= _trader.StackCount || index < 0)
                     {
                         Console.WriteLine("Индекс не корректен.");
                     }
                     else
                     {
-                        Item item = _trader.Inventory[index].Item;
+                        Item item = _trader.GetStack(index).Item;
 
                         if (_player.CanBuy(item.Price))
                         {
@@ -170,7 +168,6 @@ namespace _06_Shop
                     if (stack.Count > 1)
                     {
                         stack.DecreaseCount();
-                        break;
                     }
                     else if (stack.Count == 1)
                     {
@@ -184,11 +181,16 @@ namespace _06_Shop
 
     public class Character
     {
+        protected List<Stack> Inventory;
+
         public Character(int gold)
         {
             Inventory = new List<Stack>();
             Gold = gold;
         }
+
+        public int StackCount => Inventory.Count;
+        public Stack GetStack(int index) => Inventory[index];
 
         public Character(List<Stack> inventory, int gold)
         {
@@ -196,7 +198,6 @@ namespace _06_Shop
             Gold = gold;
         }
 
-        public List<Stack> Inventory { get; private set; }
         public int Gold { get; private set; }
 
         public void IncreaseGold(int gold)
@@ -211,6 +212,9 @@ namespace _06_Shop
 
         public void ShowInventory()
         {
+            ConsoleColor defaultColor = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Red;
+
             if (Inventory.Count == 0)
             {
                 Console.WriteLine("Инвентарь пуст.");
@@ -219,15 +223,13 @@ namespace _06_Shop
             {
                 for (int i = 0; i < Inventory.Count; i++)
                 {
-                    string name = Inventory[i].Item.Name;
-                    int count = Inventory[i].Count;
-                    int price = Inventory[i].Item.Price;
-
-                    Console.WriteLine($"{i}. {name} - {count} шт., цена - {price}");
+                    Console.Write($"{i} ");
+                    Inventory[i].ShowInfo();
                 }
             }
 
             Console.WriteLine("Монет: " + Gold);
+            Console.ForegroundColor = defaultColor;
         }
     }
 
@@ -241,6 +243,11 @@ namespace _06_Shop
 
         public Item Item { get; private set; }
         public int Count { get; private set; }
+
+        public void ShowInfo()
+        {
+            Console.WriteLine($"{Item.Name} - {Count} шт., цена - {Item.Price} монет.");
+        }
 
         public void IncreaseCount()
         {
