@@ -1,0 +1,15 @@
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\bin\Debug\net6.0\09_SuperMarket.exe
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\bin\Debug\net6.0\09_SuperMarket.deps.json
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\bin\Debug\net6.0\09_SuperMarket.runtimeconfig.json
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\bin\Debug\net6.0\09_SuperMarket.dll
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\bin\Debug\net6.0\09_SuperMarket.pdb
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\09_SuperMarket.csproj.AssemblyReference.cache
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\09_SuperMarket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\09_SuperMarket.AssemblyInfoInputs.cache
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\09_SuperMarket.AssemblyInfo.cs
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\09_SuperMarket.csproj.CoreCompileInputs.cache
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\09_SuperMarket.dll
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\refint\09_SuperMarket.dll
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\09_SuperMarket.pdb
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\09_SuperMarket.genruntimeconfig.cache
+C:\Users\sylar\source\repos\09_SuperMarket\09_SuperMarket\obj\Debug\net6.0\ref\09_SuperMarket.dll
