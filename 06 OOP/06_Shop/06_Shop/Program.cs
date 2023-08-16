@@ -15,7 +15,7 @@
 
         public Shop()
         {
-            FillTraderInventory();
+            _trader = new Trader(1000);
             _player = new Player(300);
         }
 
@@ -25,6 +25,7 @@
             const string CommandShowPlayerInventory = "2";
             const string CommandShowTraderInventory = "3";
             const string CommandExit = "4";
+
             bool isPlaying = true;
             string userInput;
 
@@ -40,7 +41,7 @@
                 switch (userInput)
                 {
                     case CommandBuy:
-                        Trading();
+                        Trade();
                         break;
                     case CommandShowPlayerInventory:
                         _player.ShowInventory();
@@ -58,7 +59,7 @@
             }
         }
 
-        private void Trading()
+        private void Trade()
         {
             bool isTrading = true;
             string userInput;
@@ -109,16 +110,6 @@
                 }
             }
         }
-
-        private void FillTraderInventory()
-        {
-            List<Stack> inventory = new List<Stack>();
-            inventory.Add(new Stack(new Item("Зелье силы", 50), 5));
-            inventory.Add(new Stack(new Item("Зелье ловкости", 75), 10));
-            inventory.Add(new Stack(new Item("Зелье интелекта", 100), 10));
-            inventory.Add(new Stack(new Item("Зелье выносливости", 50), 15));
-            _trader = new Trader(inventory, 1000);
-        }
     }
 
     public class Player : Character
@@ -147,6 +138,11 @@
             }
         }
 
+        public void DecreaseGold(int gold)
+        {
+            Gold -= gold;
+        }
+
         public bool CanBuy(int price)
         {
             return Gold - price >= 0 ? true : false;
@@ -155,8 +151,13 @@
 
     public class Trader : Character
     {
-        public Trader(List<Stack> inventory, int gold) : base(inventory, gold)
+        public Trader(int gold) : base(gold)
         {
+            Inventory = new List<Stack>();
+            Inventory.Add(new Stack(new Item("Зелье силы", 50), 5));
+            Inventory.Add(new Stack(new Item("Зелье ловкости", 75), 10));
+            Inventory.Add(new Stack(new Item("Зелье интелекта", 100), 10));
+            Inventory.Add(new Stack(new Item("Зелье выносливости", 50), 15));
         }
 
         public void RemoveItem(Item item)
@@ -177,6 +178,11 @@
                 }
             }
         }
+
+        public void IncreaseGold(int gold)
+        {
+            Gold += gold;
+        }
     }
 
     public class Character
@@ -192,24 +198,8 @@
         public int StackCount => Inventory.Count;
         public Stack GetStack(int index) => Inventory[index];
 
-        public Character(List<Stack> inventory, int gold)
-        {
-            Inventory = inventory;
-            Gold = gold;
-        }
-
-        public int Gold { get; private set; }
-
-        public void IncreaseGold(int gold)
-        {
-            Gold += gold;
-        }
-
-        public void DecreaseGold(int gold)
-        {
-            Gold -= gold;
-        }
-
+        public int Gold { get; protected set; }
+        
         public void ShowInventory()
         {
             ConsoleColor defaultColor = Console.ForegroundColor;

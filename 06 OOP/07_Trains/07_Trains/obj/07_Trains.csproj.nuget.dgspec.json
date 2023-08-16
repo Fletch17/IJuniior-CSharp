@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\IJuniior-CSharp\\06 OOP\\07_Trains\\07_Trains\\07_Trains.csproj": {}
+    "C:\\Users\\sylar\\source\\repos\\07_Trains\\07_Trains\\07_Trains.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\IJuniior-CSharp\\06 OOP\\07_Trains\\07_Trains\\07_Trains.csproj": {
+    "C:\\Users\\sylar\\source\\repos\\07_Trains\\07_Trains\\07_Trains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\IJuniior-CSharp\\06 OOP\\07_Trains\\07_Trains\\07_Trains.csproj",
+        "projectUniqueName": "C:\\Users\\sylar\\source\\repos\\07_Trains\\07_Trains\\07_Trains.csproj",
         "projectName": "07_Trains",
-        "projectPath": "D:\\GitHub\\IJuniior-CSharp\\06 OOP\\07_Trains\\07_Trains\\07_Trains.csproj",
+        "projectPath": "C:\\Users\\sylar\\source\\repos\\07_Trains\\07_Trains\\07_Trains.csproj",
         "packagesPath": "C:\\Users\\sylar\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\IJuniior-CSharp\\06 OOP\\07_Trains\\07_Trains\\obj\\",
+        "outputPath": "C:\\Users\\sylar\\source\\repos\\07_Trains\\07_Trains\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
