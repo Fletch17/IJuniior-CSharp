@@ -1,77 +1,134 @@
 ﻿namespace _09_SuperMarket
 {
-    /*
-     АДминистрирование кафе
-    В супермаркете есть очередь клиентов
-    У каждого клиента в корзине есть товары, также у клиентов есть деньги.
-    Клиент, когда подходит на кассу, получает итоговую сумму покупки и старается ее оплатить.
-    Если оплатить клиент не может, то он рандомный товар из корзины выкидывает до тех пор, пока его денег не хватит для оплаты.
-    Клиентов можно делать ограниченное число на старте программы.
-    Супермаркет содержит список товаров, из которых клиент выбирает товары для покупки.
-    */
     internal class Program
     {
         static void Main(string[] args)
         {
-            new SuperMarket(5);
+            List<Product> products = new List<Product>();
+            products.Add(new Product("Хлеб", 15));
+            products.Add(new Product("Квас", 45));
+            products.Add(new Product("Колбаса", 85));
+            products.Add(new Product("Молоко", 25));
+            products.Add(new Product("Картошка", 10));
+            products.Add(new Product("Макароны", 20));
+            products.Add(new Product("Апельсины", 30));
+            products.Add(new Product("Гречка", 15));
+            products.Add(new Product("Майонез", 20));
+            products.Add(new Product("Сметана", 20));
+
+            new SuperMarket(5, products).Run();
         }
     }
 
     public class SuperMarket
     {
+        private static Random _random;
+        private List<Product> _products;
         private Queue<Client> _clients;
-        private Random _random;
 
-        public SuperMarket(int clientCount) 
+        public SuperMarket(int clientCount, List<Product> products)
         {
             int min = 150;
             int max = 300;
             int money;
             _clients = new Queue<Client>();
             _random = new Random();
+            _products = products;
 
             for (int i = 0; i < clientCount; i++)
             {
-                money= _random.Next(min,max);
-                _clients.Enqueue(new Client(min=money));
+                money = _random.Next(min, max);
+                _clients.Enqueue(new Client(money, products));
             }
         }
 
         public void Run()
         {
-            while(_clients.Count > 0) 
-            {
-                Console.WriteLine($"Людей в очереди: {_clients.Count}");
+            Client client;
+            int summPrice = 0;
 
+            while (_clients.Count > 0)
+            {
+                client = _clients.Peek();
+                summPrice = client.GetSummPrice();
+
+                Console.WriteLine($"Людей в очереди: {_clients.Count}");
+                Console.WriteLine($"У покупателя в корзине: ");
+                client.ShowInfo();
+                Console.WriteLine($"На сумму: {summPrice}");
+
+                if (client.IsEnoughMoney(summPrice))
+                {
+                    Console.WriteLine("Клиент обслужен.");
+                    _clients.Dequeue();
+                    Console.WriteLine("Нажмите любую кнопку для продолжения.");
+                    Console.ReadKey();
+                }
+                else
+                {
+                    Console.WriteLine("У покупателя не хватает денег.");
+                    Console.WriteLine("Нажмите любую кнопку для удаления рандомного предмета.");
+                    Console.ReadKey();
+                    client.RemoveRandomProduct();
+                }
             }
+
+            Console.WriteLine("Все клиенты обслужены.");
         }
     }
 
     public class Client
     {
+        private static Random _random;
         private List<Product> _products;
 
-        public Client(int money)
+        public Client(int money, List<Product> products)
         {
             _products = new List<Product>();
+            _random = new Random();
+            int productInCart = _random.Next(1, products.Count + 1);
+            int index;
+
+            for (int i = 0; i < productInCart; i++)
+            {
+                index = _random.Next(products.Count);
+                _products.Add(products[index]);
+            }
+
             Money = money;
         }
 
         public int Money { get; private set; }
 
-        public void AddProduct(Product product)
+        public bool IsEnoughMoney(int price) => Money - price > 0;
+
+        public void RemoveRandomProduct()
         {
-            _products.Add(product);
+            int index = _random.Next(_products.Count);
+            Console.WriteLine($"Убран: {_products[index].Name}");
+            _products.RemoveAt(index);
         }
 
-        public void RemoveProduct(Product product) 
+        public void ShowInfo()
         {
-        _products.Remove(product);
+            foreach (var product in _products)
+            {
+                Console.WriteLine($"{product.Name}");
+            }
+
+            Console.WriteLine($"Денег: {Money}");
         }
 
-        public bool IsEnoughMoney(int price)
+        public int GetSummPrice()
         {
-            return Money - price > 0;
+            int summ = 0;
+
+            foreach (var product in _products)
+            {
+                summ += product.Price;
+            }
+
+            return summ;
         }
     }
 
