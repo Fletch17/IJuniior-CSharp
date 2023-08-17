@@ -93,11 +93,8 @@
 
                         if (_player.CanBuy(item.Price))
                         {
-                            _player.DecreaseGold(item.Price);
-                            _trader.IncreaseGold(item.Price);
-                            _player.AddItem(item);
-                            _trader.RemoveItem(item);
-
+                            _player.BuyItem(item, item.Price);
+                            _trader.SellItem(item,item.Price);
                             Console.WriteLine("Вы купили: " + item.Name);
                         }
                         else
@@ -118,7 +115,9 @@
         {
         }
 
-        public void AddItem(Item item)
+        public bool CanBuy(int price)=> Gold - price >= 0;
+
+        public void BuyItem(Item item, int price)
         {
             bool isContains = false;
 
@@ -136,16 +135,8 @@
             {
                 Inventory.Add(new Stack(item, 1));
             }
-        }
 
-        public void DecreaseGold(int gold)
-        {
-            Gold -= gold;
-        }
-
-        public bool CanBuy(int price)
-        {
-            return Gold - price >= 0 ? true : false;
+            Gold -= price;
         }
     }
 
@@ -160,7 +151,7 @@
             Inventory.Add(new Stack(new Item("Зелье выносливости", 50), 15));
         }
 
-        public void RemoveItem(Item item)
+        public void SellItem(Item item, int price)
         {
             foreach (var stack in Inventory)
             {
@@ -172,16 +163,14 @@
                     }
                     else if (stack.Count == 1)
                     {
-                        Inventory.Remove(stack);
-                        break;
+                        Inventory.Remove(stack);                        
                     }
+
+                    break;
                 }
             }
-        }
 
-        public void IncreaseGold(int gold)
-        {
-            Gold += gold;
+            Gold += price;
         }
     }
 
@@ -195,11 +184,11 @@
             Gold = gold;
         }
 
-        public int StackCount => Inventory.Count;
-        public Stack GetStack(int index) => Inventory[index];
-
         public int Gold { get; protected set; }
-        
+        public int StackCount => Inventory.Count;
+
+        public Stack GetStack(int index) => Inventory[index];
+         
         public void ShowInventory()
         {
             ConsoleColor defaultColor = Console.ForegroundColor;
