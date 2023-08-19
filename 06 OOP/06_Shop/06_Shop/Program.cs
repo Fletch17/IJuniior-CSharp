@@ -59,25 +59,30 @@
             }
         }
 
-        private void Trade()
+        private bool TryGetIndex(out int index)
         {
-            bool isTrading = true;
-            string userInput;
+            index = 0;
+            bool isChoosing = true;
 
             if (_trader.StackCount == 0)
             {
                 Console.WriteLine("Покупать нечего.");
-                return;
+                return false;
             }
 
-            while (isTrading)
+            while (isChoosing)
             {
+                Console.WriteLine("Введите exit для выхода из выбора.");
                 Console.Write("Введите индекс предмета: ");
 
-                userInput = Console.ReadLine();
-                bool isInt = int.TryParse(userInput, out int index);
+                string userInput = Console.ReadLine();
+                bool isInt = int.TryParse(userInput, out index);
 
-                if (isInt == false)
+                if (userInput == "exit")
+                {
+                    isChoosing = false;
+                }
+                else if (isInt == false)
                 {
                     Console.WriteLine("Введите цифру.");
                 }
@@ -89,21 +94,32 @@
                     }
                     else
                     {
-                        Item item = _trader.GetStack(index).Item;
-
-                        if (_player.CanBuy(item.Price))
-                        {
-                            _player.BuyItem(item);
-                            _trader.SellItem(item);
-                            Console.WriteLine("Вы купили: " + item.Name);
-                        }
-                        else
-                        {
-                            Console.WriteLine("Не хватает монет.");
-                        }
-
-                        isTrading = false;
+                        return true;
                     }
+                }
+            }
+
+            return false;
+        }
+
+        private void Trade()
+        {
+            if (TryGetIndex(out int index))
+            {
+                Item item = _trader.GetStack(index).Item;
+
+                if (_player.CanBuy(item.Price))
+                {
+                    if (_trader.IsItemExist(item))
+                    {
+                        _player.BuyItem(item);
+                        _trader.SellItem(item);
+                        Console.WriteLine("Вы купили: " + item.Name);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Не хватает монет.");
                 }
             }
         }
@@ -162,11 +178,21 @@
 
         public void SellItem(Item item)
         {
-            if (IsItemExist(item))
+            RemoveItem(item);
+            Gold += item.Price;
+        }
+
+        public bool IsItemExist(Item item)
+        {
+            foreach (var stack in Inventory)
             {
-                RemoveItem(item);
-                Gold += item.Price;
+                if (stack.Item.Name == item.Name)
+                {
+                    return true;
+                }
             }
+
+            return false;
         }
 
         private void RemoveItem(Item item)
@@ -189,19 +215,6 @@
             }
         }
 
-        private bool IsItemExist(Item item)
-        {
-            foreach (var stack in Inventory)
-            {
-                if (stack.Item.Name == item.Name)
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-
         private void IncreaesGold(int price)
         {
             Gold += price;
@@ -221,7 +234,11 @@
         public int Gold { get; protected set; }
         public int StackCount => Inventory.Count;
 
-        public Stack GetStack(int index) => Inventory[index];
+        public Stack GetStack(int index)
+        {
+            Stack tempStack = new Stack(Inventory[index].Item, Inventory[index].Count);
+            return tempStack;
+        }
 
         public void ShowInventory()
         {
@@ -243,7 +260,7 @@
 
             Console.WriteLine("Монет: " + Gold);
             Console.ForegroundColor = defaultColor;
-        }        
+        }
     }
 
     public class Stack
