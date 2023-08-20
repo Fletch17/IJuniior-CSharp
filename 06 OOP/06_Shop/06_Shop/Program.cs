@@ -61,6 +61,8 @@
 
         private bool TryGetIndex(out int index)
         {
+            const string CommandExit = "exit";
+
             index = 0;
             bool isChoosing = true;
 
@@ -78,7 +80,7 @@
                 string userInput = Console.ReadLine();
                 bool isInt = int.TryParse(userInput, out index);
 
-                if (userInput == "exit")
+                if (userInput == CommandExit)
                 {
                     isChoosing = false;
                 }
@@ -86,16 +88,13 @@
                 {
                     Console.WriteLine("Введите цифру.");
                 }
+                else if (index >= _trader.StackCount || index < 0)
+                {
+                    Console.WriteLine("Индекс не корректен.");
+                }
                 else
                 {
-                    if (index >= _trader.StackCount || index < 0)
-                    {
-                        Console.WriteLine("Индекс не корректен.");
-                    }
-                    else
-                    {
-                        return true;
-                    }
+                    return true;
                 }
             }
 
@@ -179,7 +178,7 @@
         public void SellItem(Item item)
         {
             RemoveItem(item);
-            Gold += item.Price;
+            IncreaesGold(item.Price);
         }
 
         public bool IsItemExist(Item item)

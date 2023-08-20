@@ -28,18 +28,17 @@
 
         public SuperMarket(int clientCount, List<Product> products)
         {
-            int min = 150;
-            int max = 300;
-            int money;
-            _clients = new Queue<Client>();
             _random = new Random();
-            _products = products;
+            _clients = new Queue<Client>();
+            _products = new List<Product>();
 
-            for (int i = 0; i < clientCount; i++)
+            foreach (var product in products)
             {
-                money = _random.Next(min, max);
-                _clients.Enqueue(new Client(money, products));
+                Product tempProduct = new Product(product.Name, product.Price);
+                _products.Add(tempProduct);
             }
+
+            FillQueue(clientCount, _products);
         }
 
         public void Run()
@@ -59,10 +58,11 @@
 
                 if (client.IsEnoughMoney(summPrice))
                 {
-                    Console.WriteLine("Клиент обслужен.");
-                    _clients.Dequeue();
-                    Console.WriteLine("Нажмите любую кнопку для продолжения.");
-                    Console.ReadKey();
+                    ServeClient("Клиент обслужен.");
+                }
+                else if (client.ProductInCart == 0)
+                {
+                    ServeClient("Клиент ничего не купил. Не хватило денег.");
                 }
                 else
                 {
@@ -75,6 +75,46 @@
 
             Console.WriteLine("Все клиенты обслужены.");
         }
+
+        private void FillClientsCarts()
+        {
+            int productsInCart;
+            int index;
+
+            foreach (var client in _clients)
+            {
+                productsInCart = _random.Next(1, _products.Count + 1);
+
+                for (int i = 0; i < productsInCart; i++)
+                {
+                    index = _random.Next(_products.Count);
+                    client.AddProduct(_products[index]);
+                }
+            }
+        }
+
+        private void ServeClient(string message)
+        {
+            Console.WriteLine(message);
+            _clients.Dequeue();
+            Console.WriteLine("Нажмите любую кнопку для продолжения.");
+            Console.ReadKey();
+        }
+
+        private void FillQueue(int clientCount, List<Product> products)
+        {
+            int minMoneyCount = 150;
+            int maxMoneyCount = 300;
+            int money;
+
+            for (int i = 0; i < clientCount; i++)
+            {
+                money = _random.Next(minMoneyCount, maxMoneyCount);
+                _clients.Enqueue(new Client(money));
+            }
+
+            FillClientsCarts();
+        }
     }
 
     public class Client
@@ -82,31 +122,28 @@
         private static Random _random;
         private List<Product> _products;
 
-        public Client(int money, List<Product> products)
+        public Client(int money)
         {
             _products = new List<Product>();
             _random = new Random();
-            int productInCart = _random.Next(1, products.Count + 1);
-            int index;
-
-            for (int i = 0; i < productInCart; i++)
-            {
-                index = _random.Next(products.Count);
-                _products.Add(products[index]);
-            }
-
             Money = money;
         }
 
         public int Money { get; private set; }
+        public int ProductInCart => _products.Count;
 
         public bool IsEnoughMoney(int price) => Money - price > 0;
+
+        public void AddProduct(Product product)
+        {
+            _products.Add(product);
+        }
 
         public void RemoveRandomProduct()
         {
             int index = _random.Next(_products.Count);
             Console.WriteLine($"Убран: {_products[index].Name}");
-            _products.RemoveAt(index);
+            _products.Remove(_products[index]);
         }
 
         public void ShowInfo()
