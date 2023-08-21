@@ -4,17 +4,19 @@
     {
         static void Main(string[] args)
         {
-            List<Product> products = new List<Product>();
-            products.Add(new Product("Хлеб", 15));
-            products.Add(new Product("Квас", 45));
-            products.Add(new Product("Колбаса", 85));
-            products.Add(new Product("Молоко", 25));
-            products.Add(new Product("Картошка", 10));
-            products.Add(new Product("Макароны", 20));
-            products.Add(new Product("Апельсины", 30));
-            products.Add(new Product("Гречка", 15));
-            products.Add(new Product("Майонез", 20));
-            products.Add(new Product("Сметана", 20));
+            List<Product> products = new List<Product>
+            {
+                new Product("Хлеб", 15),
+                new Product("Квас", 45),
+                new Product("Колбаса", 85),
+                new Product("Молоко", 25),
+                new Product("Картошка", 10),
+                new Product("Макароны", 20),
+                new Product("Апельсины", 30),
+                new Product("Гречка", 15),
+                new Product("Майонез", 20),
+                new Product("Сметана", 20)
+            };
 
             new SuperMarket(5, products).Run();
         }
@@ -22,13 +24,11 @@
 
     public class SuperMarket
     {
-        private static Random _random;
         private List<Product> _products;
         private Queue<Client> _clients;
 
         public SuperMarket(int clientCount, List<Product> products)
         {
-            _random = new Random();
             _clients = new Queue<Client>();
             _products = new List<Product>();
 
@@ -44,36 +44,45 @@
         public void Run()
         {
             Client client;
-            int summPrice = 0;
 
             while (_clients.Count > 0)
             {
                 client = _clients.Peek();
-                summPrice = client.GetSummPrice();
-
                 Console.WriteLine($"Людей в очереди: {_clients.Count}");
                 Console.WriteLine($"У покупателя в корзине: ");
                 client.ShowInfo();
-                Console.WriteLine($"На сумму: {summPrice}");
-
-                if (client.IsEnoughMoney(summPrice))
-                {
-                    ServeClient("Клиент обслужен.");
-                }
-                else if (client.ProductInCart == 0)
-                {
-                    ServeClient("Клиент ничего не купил. Не хватило денег.");
-                }
-                else
-                {
-                    Console.WriteLine("У покупателя не хватает денег.");
-                    Console.WriteLine("Нажмите любую кнопку для удаления рандомного предмета.");
-                    Console.ReadKey();
-                    client.RemoveRandomProduct();
-                }
+                Console.WriteLine($"На сумму: {client.GetSummPrice()}");
+                ServeClient(client);
             }
 
             Console.WriteLine("Все клиенты обслужены.");
+        }
+
+        private void ServeClient(Client client)
+        {
+            if (client.IsEnoughMoney(client.GetSummPrice()))
+            {
+                RemoveClient("Клиент обслужен.");
+            }
+            else if (client.ProductInCart == 0)
+            {
+                RemoveClient("Клиент ничего не купил. Не хватило денег.");
+            }
+            else
+            {
+                Console.WriteLine("У покупателя не хватает денег.");
+                Console.WriteLine("Нажмите любую кнопку для удаления рандомного предмета.");
+                Console.ReadKey();
+                client.RemoveRandomProduct();
+            }
+        }
+
+        private void RemoveClient(string message)
+        {
+            Console.WriteLine(message);
+            _clients.Dequeue();
+            Console.WriteLine("Нажмите любую кнопку для продолжения.");
+            Console.ReadKey();
         }
 
         private void FillClientsCarts()
@@ -83,33 +92,25 @@
 
             foreach (var client in _clients)
             {
-                productsInCart = _random.Next(1, _products.Count + 1);
+                productsInCart = UserUtils.GenerateRandomNumber(1, _products.Count + 1);
 
                 for (int i = 0; i < productsInCart; i++)
                 {
-                    index = _random.Next(_products.Count);
+                    index = UserUtils.GenerateRandomNumber(_products.Count);
                     client.AddProduct(_products[index]);
                 }
             }
         }
 
-        private void ServeClient(string message)
-        {
-            Console.WriteLine(message);
-            _clients.Dequeue();
-            Console.WriteLine("Нажмите любую кнопку для продолжения.");
-            Console.ReadKey();
-        }
-
         private void FillQueue(int clientCount, List<Product> products)
         {
-            int minMoneyCount = 150;
-            int maxMoneyCount = 300;
+            int minMoneyCount = 110;
+            int maxMoneyCount = 250;
             int money;
 
             for (int i = 0; i < clientCount; i++)
             {
-                money = _random.Next(minMoneyCount, maxMoneyCount);
+                money = UserUtils.GenerateRandomNumber(minMoneyCount, maxMoneyCount);
                 _clients.Enqueue(new Client(money));
             }
 
@@ -119,20 +120,18 @@
 
     public class Client
     {
-        private static Random _random;
         private List<Product> _products;
 
         public Client(int money)
         {
             _products = new List<Product>();
-            _random = new Random();
             Money = money;
         }
 
         public int Money { get; private set; }
         public int ProductInCart => _products.Count;
 
-        public bool IsEnoughMoney(int price) => Money - price > 0;
+        public bool IsEnoughMoney(int price) => Money >= price;
 
         public void AddProduct(Product product)
         {
@@ -141,7 +140,7 @@
 
         public void RemoveRandomProduct()
         {
-            int index = _random.Next(_products.Count);
+            int index = UserUtils.GenerateRandomNumber(_products.Count);
             Console.WriteLine($"Убран: {_products[index].Name}");
             _products.Remove(_products[index]);
         }
@@ -179,5 +178,17 @@
 
         public string Name { get; private set; }
         public int Price { get; private set; }
+    }
+
+    public class UserUtils
+    {
+        public static int GenerateRandomNumber(int minValue, int maxValue)
+        {
+            return new Random().Next(minValue, maxValue);
+        }
+        public static int GenerateRandomNumber(int maxValue)
+        {
+            return new Random().Next(maxValue);
+        }
     }
 }
