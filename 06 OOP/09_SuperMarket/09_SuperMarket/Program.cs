@@ -38,7 +38,7 @@
                 _products.Add(tempProduct);
             }
 
-            FillQueue(clientCount, _products);
+            FillQueue(clientCount);
         }
 
         public void Run()
@@ -60,7 +60,7 @@
 
         private void ServeClient(Client client)
         {
-            if (client.IsEnoughMoney(client.GetSummPrice()))
+            if (client.IsEnoughMoney())
             {
                 RemoveClient("Клиент обслужен.");
             }
@@ -102,7 +102,7 @@
             }
         }
 
-        private void FillQueue(int clientCount, List<Product> products)
+        private void FillQueue(int clientCount)
         {
             int minMoneyCount = 110;
             int maxMoneyCount = 250;
@@ -131,7 +131,7 @@
         public int Money { get; private set; }
         public int ProductInCart => _products.Count;
 
-        public bool IsEnoughMoney(int price) => Money >= price;
+        public bool IsEnoughMoney() => Money >= GetSummPrice();
 
         public void AddProduct(Product product)
         {
