@@ -1,0 +1,15 @@
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\bin\Debug\net6.0\08_GladiatorBattle.exe
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\bin\Debug\net6.0\08_GladiatorBattle.deps.json
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\bin\Debug\net6.0\08_GladiatorBattle.runtimeconfig.json
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\bin\Debug\net6.0\08_GladiatorBattle.dll
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\bin\Debug\net6.0\08_GladiatorBattle.pdb
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\08_GladiatorBattle.csproj.AssemblyReference.cache
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\08_GladiatorBattle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\08_GladiatorBattle.AssemblyInfoInputs.cache
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\08_GladiatorBattle.AssemblyInfo.cs
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\08_GladiatorBattle.csproj.CoreCompileInputs.cache
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\08_GladiatorBattle.dll
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\refint\08_GladiatorBattle.dll
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\08_GladiatorBattle.pdb
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\08_GladiatorBattle.genruntimeconfig.cache
+C:\Users\sylar\source\repos\08_GladiatorBattle\08_GladiatorBattle\obj\Debug\net6.0\ref\08_GladiatorBattle.dll
