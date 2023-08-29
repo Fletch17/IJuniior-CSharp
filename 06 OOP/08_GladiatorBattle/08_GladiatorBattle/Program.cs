@@ -122,6 +122,7 @@
         protected override void UseSkill()
         {
             int damage = 50;
+            int turnCount = 2;
 
             base.UseSkill();
 
@@ -130,7 +131,7 @@
                 DamageCurrent += damage;
             }
 
-            TurnCount = 2;            
+            TurnCount = turnCount;            
         }
     }
 
@@ -190,6 +191,7 @@
         {
             int health = 20;
             int defence = 15;
+            int turnCount = 2;
 
             base.UseSkill();
 
@@ -207,7 +209,7 @@
                 DefenceCurrent += defence;
             }
 
-            TurnCount = 2;
+            TurnCount = turnCount;
         }
     }
 
@@ -230,11 +232,12 @@
         protected override void UseSkill()
         {
             int damageMultiple = 2;
+            int turnCount = 1;
 
             base.UseSkill();
 
             DamageCurrent = DamageDefault * damageMultiple;
-            TurnCount = 1;
+            TurnCount = turnCount;
         }
     }
 
@@ -256,16 +259,22 @@
 
         protected override void UseSkill()
         {
+            int deltaHealth = -20;
+            int deltaDamage = 30;
+            int turnCount = 1;
+
             base.UseSkill();
 
-            HealthCurrent -= 20;
-            DamageCurrent = DamageDefault + 30;
-            TurnCount = 1;
+            HealthCurrent += deltaHealth;
+            DamageCurrent = DamageDefault + deltaDamage;
+            TurnCount = turnCount;
         }
     }
 
     public class Character
     {
+        private static Random s_random;
+
         protected int HealthMax;
         protected int HealthCurrent;
         protected int DamageCurrent;
@@ -278,14 +287,12 @@
         protected int TurnCount;
         protected ConsoleColor Color;
 
-        private static Random _random;
-
-        private double SkillChance;
+        private double _skillChance;
 
         public Character()
         {
-            _random = new Random();
-            SkillChance = 0.15;
+            s_random = new Random();
+            _skillChance = 0.15;
         }
 
         public bool IsDead => HealthCurrent <= 0;
@@ -294,7 +301,7 @@
         {
             Console.Write($"{Name} Атакует.   ");    
 
-            if (_random.NextDouble() <= enemy.SkillChance)
+            if (s_random.NextDouble() <= enemy._skillChance)
             {
                 UseSkill();
             }
@@ -306,7 +313,7 @@
                 damage = 0;
             }
 
-            if (_random.NextDouble() <= enemy.DodgeChance)
+            if (s_random.NextDouble() <= enemy.DodgeChance)
             {
                 Console.WriteLine("Промах!");
                 return;
