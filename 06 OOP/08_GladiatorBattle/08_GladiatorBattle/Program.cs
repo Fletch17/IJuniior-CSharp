@@ -1,4 +1,6 @@
-﻿namespace _08_GladiatorBattle
+﻿using System.Runtime.CompilerServices;
+
+namespace _08_GladiatorBattle
 {
     internal class Program
     {
@@ -15,10 +17,10 @@
 
         public Battleground()
         {
-             _firstGladiator = ChoiseClass();
-             _secondGladiator = ChoiseClass();
+            _firstGladiator = ChoiseClass();
+            _secondGladiator = ChoiseClass();
 
-            if(_firstGladiator.GetType()==_secondGladiator.GetType())
+            if (_firstGladiator.GetType() == _secondGladiator.GetType())
             {
                 _secondGladiator.SetWhiteColor();
             }
@@ -70,42 +72,56 @@
             const string CommandPriest = "4";
             const string CommandRogue = "5";
 
+            bool isChoosing = true;
             string userInput;
+            Character character = null;
 
             Console.WriteLine($"{CommandWarrior}. Воин");
             Console.WriteLine($"{CommandMage}. Маг");
             Console.WriteLine($"{CommandPaladin}. Паладин");
             Console.WriteLine($"{CommandPriest}. Жрец");
             Console.WriteLine($"{CommandRogue}. Разбойник");
-            Console.Write("Выбирите класс: ");           
+            Console.Write("Выбирите класс: ");
 
-            while (true)
+            while (isChoosing)
             {
                 userInput = Console.ReadLine();
 
                 switch (userInput)
                 {
                     case CommandWarrior:
-                        return new Warrior();
+                        character = new Warrior();
+                        isChoosing = false;
+                        break;
                     case CommandMage:
-                        return new Mage();
+                        character = new Mage();
+                        isChoosing = false;
+                        break;
                     case CommandPaladin:
-                        return new Paladin();
+                        character = new Paladin();
+                        isChoosing = false;
+                        break;
                     case CommandPriest:
-                        return new Priest();
+                        character = new Priest();
+                        isChoosing = false;
+                        break;
                     case CommandRogue:
-                        return new Rogue();
+                        character = new Rogue();
+                        isChoosing = false;
+                        break;
                     default:
                         Console.WriteLine("Неправильный индекс.");
                         break;
                 }
             }
+
+            return character;
         }
     }
 
-    public class Rogue :Character
+    public class Rogue : Character
     {
-        public Rogue() 
+        public Rogue()
         {
             Name = "Разбойник";
             HealthCurrent = 200;
@@ -131,13 +147,13 @@
                 DamageCurrent += damage;
             }
 
-            TurnCount = turnCount;            
+            TurnCount = turnCount;
         }
     }
 
-    public class Priest:Character
+    public class Priest : Character
     {
-        public Priest() 
+        public Priest()
         {
             Name = "Жрец";
             HealthCurrent = 150;
@@ -167,13 +183,13 @@
                 HealthCurrent += health;
             }
 
-                DamageCurrent += damage;
+            DamageCurrent += damage;
         }
     }
 
     public class Paladin : Character
     {
-        public Paladin() 
+        public Paladin()
         {
             Name = "Паладин";
             HealthCurrent = 220;
@@ -184,7 +200,7 @@
             DefenceDefault = DefenceCurrent;
             SkillName = "Благословение";
             Color = ConsoleColor.Cyan;
-            DodgeChance= 0.15;
+            DodgeChance = 0.15;
         }
 
         protected override void UseSkill()
@@ -215,7 +231,7 @@
 
     public class Mage : Character
     {
-        public Mage() 
+        public Mage()
         {
             Name = "Маг";
             HealthCurrent = 170;
@@ -282,7 +298,7 @@
         protected int DefenceCurrent;
         protected int DefenceDefault;
         protected string Name;
-        protected double DodgeChance;        
+        protected double DodgeChance;
         protected string SkillName;
         protected int TurnCount;
         protected ConsoleColor Color;
@@ -296,10 +312,10 @@
         }
 
         public bool IsDead => HealthCurrent <= 0;
-               
+
         public void AttackEnemy(Character enemy)
         {
-            Console.Write($"{Name} Атакует.   ");    
+            Console.Write($"{Name} Атакует.   ");
 
             if (s_random.NextDouble() <= enemy._skillChance)
             {

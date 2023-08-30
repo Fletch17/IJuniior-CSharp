@@ -1,0 +1,15 @@
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.exe
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.deps.json
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.runtimeconfig.json
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.dll
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.pdb
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.csproj.AssemblyReference.cache
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.AssemblyInfoInputs.cache
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.AssemblyInfo.cs
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.csproj.CoreCompileInputs.cache
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.dll
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\refint\12_Zoopark.dll
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.pdb
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.genruntimeconfig.cache
+C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\ref\12_Zoopark.dll

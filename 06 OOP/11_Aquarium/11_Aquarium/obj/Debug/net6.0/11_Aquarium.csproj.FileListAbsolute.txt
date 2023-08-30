@@ -1,0 +1,15 @@
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\bin\Debug\net6.0\11_Aquarium.exe
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\bin\Debug\net6.0\11_Aquarium.deps.json
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\bin\Debug\net6.0\11_Aquarium.runtimeconfig.json
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\bin\Debug\net6.0\11_Aquarium.dll
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\bin\Debug\net6.0\11_Aquarium.pdb
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\11_Aquarium.csproj.AssemblyReference.cache
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\11_Aquarium.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\11_Aquarium.AssemblyInfoInputs.cache
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\11_Aquarium.AssemblyInfo.cs
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\11_Aquarium.csproj.CoreCompileInputs.cache
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\11_Aquarium.dll
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\refint\11_Aquarium.dll
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\11_Aquarium.pdb
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\11_Aquarium.genruntimeconfig.cache
+C:\Users\sylar\source\repos\11_Aquarium\11_Aquarium\obj\Debug\net6.0\ref\11_Aquarium.dll

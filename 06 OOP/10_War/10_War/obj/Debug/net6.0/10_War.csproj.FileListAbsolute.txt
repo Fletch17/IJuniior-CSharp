@@ -1,0 +1,15 @@
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\10_War.csproj.AssemblyReference.cache
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\10_War.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\10_War.AssemblyInfoInputs.cache
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\10_War.AssemblyInfo.cs
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\10_War.csproj.CoreCompileInputs.cache
+C:\Users\sylar\source\repos\10_War\10_War\bin\Debug\net6.0\10_War.exe
+C:\Users\sylar\source\repos\10_War\10_War\bin\Debug\net6.0\10_War.deps.json
+C:\Users\sylar\source\repos\10_War\10_War\bin\Debug\net6.0\10_War.runtimeconfig.json
+C:\Users\sylar\source\repos\10_War\10_War\bin\Debug\net6.0\10_War.dll
+C:\Users\sylar\source\repos\10_War\10_War\bin\Debug\net6.0\10_War.pdb
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\10_War.dll
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\refint\10_War.dll
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\10_War.pdb
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\10_War.genruntimeconfig.cache
+C:\Users\sylar\source\repos\10_War\10_War\obj\Debug\net6.0\ref\10_War.dll
