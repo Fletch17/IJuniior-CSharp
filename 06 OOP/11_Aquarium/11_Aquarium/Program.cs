@@ -29,13 +29,13 @@
             bool isProgramWork = true;
             string userInput;
 
-            Console.WriteLine($"{CommandAddFish}. Добавить рыбу.");
-            Console.WriteLine($"{CommandRemoveFish}. Убрать рыбу.");
-            Console.WriteLine($"{CommandNextTurn}. Пропустить ход.");
-            Console.WriteLine($"{CommandExit}. Выйти.");
-
             while (isProgramWork)
             {
+                Console.WriteLine($"{CommandAddFish}. Добавить рыбу.");
+                Console.WriteLine($"{CommandRemoveFish}. Убрать рыбу.");
+                Console.WriteLine($"{CommandNextTurn}. Пропустить ход.");
+                Console.WriteLine($"{CommandExit}. Выйти.");
+                ShowInfo();
                 Console.Write("Выбирите пункт: ");
                 userInput = Console.ReadLine();
 
@@ -58,7 +58,6 @@
                 }
 
                 SkipTurn();
-                ShowInfo();
             }
         }
 
@@ -80,7 +79,7 @@
 
                 if (int.TryParse(userInput, out int index))
                 {
-                    if (index > 0 && index <= _capacity)
+                    if (index > 0 && index <= _fishes.Count)
                     {
                         _fishes.RemoveAt(index - 1);
                         isRemoving = false;
@@ -105,7 +104,7 @@
                 return;
             }
 
-            Console.WriteLine($"В аквариуме {_fishes.Count}/{_capacity} рыб.");
+            Console.WriteLine($"В аквариуме {_fishes.Count}/{_capacity} рыб:");
 
             for (int i = 0; i < _fishes.Count; i++)
             {
@@ -121,23 +120,29 @@
                 return;
             }
 
-            bool isAdding = true;
-            int age = 0; ;
+            bool isCorrectInput = false;
+            int health = 0;
             string userInput;
-            string name;
 
             Console.Write("Введите имя рыбы: ");
-            name = Console.ReadLine();
+            string name = Console.ReadLine();
             Console.Write("Сколько ходов эта рыба будет жить: ");
 
-            while (isAdding)
+            while (isCorrectInput == false)
             {
                 userInput = Console.ReadLine();
 
                 if (int.TryParse(userInput, out int value))
                 {
-                    age = value;
-                    isAdding = false;
+                    if (value > 0)
+                    {
+                        health = value;
+                        isCorrectInput = true;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Число должно быть больше 0.");
+                    }
                 }
                 else
                 {
@@ -145,7 +150,7 @@
                 }
             }
 
-            _fishes.Add(new Fish(name, age));
+            _fishes.Add(new Fish(name, health));
         }
 
         private void SkipTurn()
@@ -154,17 +159,17 @@
 
             foreach (var fish in _fishes)
             {
-                fish.DecreaseTurn();
+                fish.DecreaseHealth();
             }
 
-            CheckForDeads();
+            RemoveDeadFishes();
         }
 
-        private void CheckForDeads()
+        private void RemoveDeadFishes()
         {
             for (int i = _fishes.Count - 1; i >= 0; i--)
             {
-                if (_fishes[i].TurnCount == 0)
+                if (_fishes[i].IsAlive == false)
                 {
                     _fishes.Remove(_fishes[i]);
                 }
@@ -175,23 +180,24 @@
     public class Fish
     {
         private string _name;
+        private int _health;
 
-        public Fish(string name, int age)
+        public Fish(string name, int health)
         {
             _name = name;
-            TurnCount = age;
+            _health = health;
         }
-
-        public int TurnCount { get; private set; }
+                
+        public bool IsAlive => _health > 0;
 
         public string GetInfo()
         {
-            return $"{_name} - осталось жить {TurnCount} ходов.";
+            return $"{_name} - осталось {_health} жизней.";
         }
 
-        public void DecreaseTurn()
+        public void DecreaseHealth()
         {
-            TurnCount--;
+            _health--;
         }
     }
 }
