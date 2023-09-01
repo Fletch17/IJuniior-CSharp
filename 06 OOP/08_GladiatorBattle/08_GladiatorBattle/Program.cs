@@ -12,11 +12,21 @@ namespace _08_GladiatorBattle
 
     public class Battleground
     {
+        private List<Character> _characterList;
         private Character _firstGladiator;
         private Character _secondGladiator;
 
         public Battleground()
         {
+            _characterList = new List<Character>() 
+            {
+            new Warrior(),
+            new Mage(),
+            new Rogue(),
+            new Paladin(),
+            new Priest()
+            };
+
             _firstGladiator = ChoiseClass();
             _secondGladiator = ChoiseClass();
 
@@ -66,56 +76,40 @@ namespace _08_GladiatorBattle
 
         private Character ChoiseClass()
         {
-            const string CommandWarrior = "1";
-            const string CommandMage = "2";
-            const string CommandPaladin = "3";
-            const string CommandPriest = "4";
-            const string CommandRogue = "5";
-
             bool isChoosing = true;
             string userInput;
-            Character character = null;
+            Type characterType = null;
 
-            Console.WriteLine($"{CommandWarrior}. Воин");
-            Console.WriteLine($"{CommandMage}. Маг");
-            Console.WriteLine($"{CommandPaladin}. Паладин");
-            Console.WriteLine($"{CommandPriest}. Жрец");
-            Console.WriteLine($"{CommandRogue}. Разбойник");
+            for (int i = 0; i < _characterList.Count; i++)
+            {
+                Console.WriteLine($"{i+1}. {_characterList[i].Name}");
+            }
+
             Console.Write("Выбирите класс: ");
 
             while (isChoosing)
             {
                 userInput = Console.ReadLine();
 
-                switch (userInput)
+                if(int.TryParse(userInput,out int index))
                 {
-                    case CommandWarrior:
-                        character = new Warrior();
-                        isChoosing = false;
-                        break;
-                    case CommandMage:
-                        character = new Mage();
-                        isChoosing = false;
-                        break;
-                    case CommandPaladin:
-                        character = new Paladin();
-                        isChoosing = false;
-                        break;
-                    case CommandPriest:
-                        character = new Priest();
-                        isChoosing = false;
-                        break;
-                    case CommandRogue:
-                        character = new Rogue();
-                        isChoosing = false;
-                        break;
-                    default:
+                    if(index>0&&index<=_characterList.Count)
+                    {
+                        characterType= _characterList[index-1].GetType();
+                        isChoosing= false;
+                    }
+                    else
+                    {
                         Console.WriteLine("Неправильный индекс.");
-                        break;
+                    }
                 }
+                else
+                {
+                    Console.WriteLine("Введите номер класса гладитора.");
+                } 
             }
 
-            return character;
+            return (Character)Activator.CreateInstance(characterType);
         }
     }
 
@@ -297,7 +291,6 @@ namespace _08_GladiatorBattle
         protected int DamageDefault;
         protected int DefenceCurrent;
         protected int DefenceDefault;
-        protected string Name;
         protected double DodgeChance;
         protected string SkillName;
         protected int TurnCount;
@@ -305,12 +298,17 @@ namespace _08_GladiatorBattle
 
         private double _skillChance;
 
-        public Character()
+        static Character()
         {
             s_random = new Random();
+        }
+
+        public Character()
+        {
             _skillChance = 0.15;
         }
 
+        public string Name { get; protected set; }
         public bool IsDead => HealthCurrent <= 0;
 
         public void AttackEnemy(Character enemy)
