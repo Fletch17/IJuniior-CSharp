@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace _08_GladiatorBattle
 {
@@ -18,7 +19,7 @@ namespace _08_GladiatorBattle
 
         public Battleground()
         {
-            _characterList = new List<Character>() 
+            _characterList = new List<Character>()
             {
             new Warrior(),
             new Mage(),
@@ -27,8 +28,8 @@ namespace _08_GladiatorBattle
             new Priest()
             };
 
-            _firstGladiator = ChoiseClass();
-            _secondGladiator = ChoiseClass();
+            _firstGladiator = GetClass(СhooseClass());
+            _secondGladiator = GetClass(СhooseClass());
 
             if (_firstGladiator.GetType() == _secondGladiator.GetType())
             {
@@ -51,12 +52,16 @@ namespace _08_GladiatorBattle
 
         private bool IsAllAlive()
         {
-            if (!_firstGladiator.IsDead && !_secondGladiator.IsDead)
+            if (_firstGladiator.IsDead == false && _secondGladiator.IsDead == false)
             {
                 return true;
             }
             else
             {
+                if (_firstGladiator.IsDead && _secondGladiator.IsDead)
+                {
+                    Console.WriteLine("Ничья.");
+                }
                 if (_firstGladiator.IsDead)
                 {
                     Console.WriteLine("Второй гладиатор победил.");
@@ -65,24 +70,20 @@ namespace _08_GladiatorBattle
                 {
                     Console.WriteLine("Первый гладиатор победил.");
                 }
-                else
-                {
-                    Console.WriteLine("Ничья.");
-                }
             }
 
             return false;
         }
 
-        private Character ChoiseClass()
+        private int СhooseClass()
         {
             bool isChoosing = true;
             string userInput;
-            Type characterType = null;
+            int index = 0;
 
             for (int i = 0; i < _characterList.Count; i++)
             {
-                Console.WriteLine($"{i+1}. {_characterList[i].Name}");
+                Console.WriteLine($"{i + 1}. {_characterList[i].Name}");
             }
 
             Console.Write("Выбирите класс: ");
@@ -91,12 +92,12 @@ namespace _08_GladiatorBattle
             {
                 userInput = Console.ReadLine();
 
-                if(int.TryParse(userInput,out int index))
+                if (int.TryParse(userInput, out index))
                 {
-                    if(index>0&&index<=_characterList.Count)
+                    if (index > 0 && index <= _characterList.Count)
                     {
-                        characterType= _characterList[index-1].GetType();
-                        isChoosing= false;
+                        index = index - 1;
+                        isChoosing = false;
                     }
                     else
                     {
@@ -106,27 +107,23 @@ namespace _08_GladiatorBattle
                 else
                 {
                     Console.WriteLine("Введите номер класса гладитора.");
-                } 
+                }
             }
 
+            return index;
+        }
+
+        private Character GetClass(int index)
+        {
+            Type characterType = _characterList[index].GetType();
             return (Character)Activator.CreateInstance(characterType);
         }
     }
 
     public class Rogue : Character
     {
-        public Rogue()
+        public Rogue() : base("Разбойник", 200, 70, 10, 0.35, "Отравленное лезвие", ConsoleColor.Green)
         {
-            Name = "Разбойник";
-            HealthCurrent = 200;
-            HealthMax = HealthCurrent;
-            DamageCurrent = 70;
-            DamageDefault = DamageCurrent;
-            DefenceCurrent = 10;
-            DefenceDefault = DefenceCurrent;
-            SkillName = "Кара света";
-            Color = ConsoleColor.Green;
-            DodgeChance = 0.35;
         }
 
         protected override void UseSkill()
@@ -147,18 +144,8 @@ namespace _08_GladiatorBattle
 
     public class Priest : Character
     {
-        public Priest()
+        public Priest() : base("Жрец", 150, 60, 5, 0.1, "Кара света", ConsoleColor.Yellow)
         {
-            Name = "Жрец";
-            HealthCurrent = 150;
-            HealthMax = HealthCurrent;
-            DamageCurrent = 60;
-            DamageDefault = DamageCurrent;
-            DefenceCurrent = 5;
-            DefenceDefault = DefenceCurrent;
-            SkillName = "Кара света";
-            Color = ConsoleColor.Yellow;
-            DodgeChance = 0.1;
         }
 
         protected override void UseSkill()
@@ -183,18 +170,8 @@ namespace _08_GladiatorBattle
 
     public class Paladin : Character
     {
-        public Paladin()
+        public Paladin() : base("Паладин", 220, 40, 20, 0.15, "Благословение", ConsoleColor.Cyan)
         {
-            Name = "Паладин";
-            HealthCurrent = 220;
-            HealthMax = HealthCurrent;
-            DamageCurrent = 40;
-            DamageDefault = DamageCurrent;
-            DefenceCurrent = 20;
-            DefenceDefault = DefenceCurrent;
-            SkillName = "Благословение";
-            Color = ConsoleColor.Cyan;
-            DodgeChance = 0.15;
         }
 
         protected override void UseSkill()
@@ -225,18 +202,8 @@ namespace _08_GladiatorBattle
 
     public class Mage : Character
     {
-        public Mage()
+        public Mage() : base("Маг", 170, 90, 0, 0.05, "Огненное клеймо", ConsoleColor.Blue)
         {
-            Name = "Маг";
-            HealthCurrent = 170;
-            HealthMax = HealthCurrent;
-            DamageCurrent = 90;
-            DamageDefault = DamageCurrent;
-            DefenceCurrent = 0;
-            DefenceDefault = DefenceCurrent;
-            DodgeChance = 0.05;
-            SkillName = "Огненное клеймо";
-            Color = ConsoleColor.Blue;
         }
 
         protected override void UseSkill()
@@ -253,18 +220,8 @@ namespace _08_GladiatorBattle
 
     public class Warrior : Character
     {
-        public Warrior()
+        public Warrior() : base("Воин", 300, 50, 10, 0.2, "Ярость", ConsoleColor.Red)
         {
-            Name = "Воин";
-            HealthCurrent = 300;
-            HealthMax = HealthCurrent;
-            DamageCurrent = 50;
-            DamageDefault = DamageCurrent;
-            DefenceCurrent = 10;
-            DefenceDefault = DefenceCurrent;
-            SkillName = "Ярость";
-            DodgeChance = 0.2;
-            Color = ConsoleColor.Red;
         }
 
         protected override void UseSkill()
@@ -283,8 +240,6 @@ namespace _08_GladiatorBattle
 
     public class Character
     {
-        private static Random s_random;
-
         protected int HealthMax;
         protected int HealthCurrent;
         protected int DamageCurrent;
@@ -298,13 +253,18 @@ namespace _08_GladiatorBattle
 
         private double _skillChance;
 
-        static Character()
+        public Character(string name, int health, int damage, int defence, double dodgeChance, string skillName, ConsoleColor color)
         {
-            s_random = new Random();
-        }
-
-        public Character()
-        {
+            Name = name;
+            HealthCurrent = health;
+            HealthMax = health;
+            DamageCurrent = damage;
+            DamageDefault = damage;
+            DefenceCurrent = defence;
+            DefenceDefault = defence;
+            SkillName = skillName;
+            DodgeChance = dodgeChance;
+            Color = color;
             _skillChance = 0.15;
         }
 
@@ -315,7 +275,7 @@ namespace _08_GladiatorBattle
         {
             Console.Write($"{Name} Атакует.   ");
 
-            if (s_random.NextDouble() <= enemy._skillChance)
+            if (UserUtils.GenerateRandomDouble() <= enemy._skillChance)
             {
                 UseSkill();
             }
@@ -327,7 +287,7 @@ namespace _08_GladiatorBattle
                 damage = 0;
             }
 
-            if (s_random.NextDouble() <= enemy.DodgeChance)
+            if (UserUtils.GenerateRandomDouble() <= enemy.DodgeChance)
             {
                 Console.WriteLine("Промах!");
                 return;
@@ -340,13 +300,10 @@ namespace _08_GladiatorBattle
         {
             TurnCount--;
 
-            if (TurnCount == 0)
+            if (TurnCount <= 0)
             {
                 DamageCurrent = DamageDefault;
                 DefenceCurrent = DefenceDefault;
-            }
-            else if (TurnCount < 0)
-            {
                 TurnCount = 0;
             }
         }
@@ -384,6 +341,14 @@ namespace _08_GladiatorBattle
             Console.ForegroundColor = Color;
             Console.WriteLine($"{Name} - получает {damage} урона");
             Console.ForegroundColor = defaultColor;
+        }
+    }
+
+    public class UserUtils
+    {
+        public static double GenerateRandomDouble()
+        {
+            return new Random().NextDouble();
         }
     }
 }
