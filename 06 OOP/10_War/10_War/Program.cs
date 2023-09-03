@@ -13,28 +13,38 @@ namespace _10_War
 
     public class Battleground
     {
-        private Country _countryOne;
-        private Country _countryTwo;
+        private Country _country1;
+        private Country _country2;
 
         public Battleground()
         {
-            _countryOne = new Country(5, "Страна 1");
-            _countryTwo = new Country(5, "Страна 2");
+            _country1 = new Country(5, "Страна 1");
+            _country2 = new Country(5, "Страна 2");
         }
 
         public void Battle()
         {
-            while (true)
-            {
-                if (IsArmyDead(_countryOne, _countryTwo)) 
-                    break;
-                else 
-                    Attack(_countryOne, _countryTwo);
+            bool isFighting = true;
 
-                if (IsArmyDead(_countryOne, _countryTwo))
-                    break;
+            while (isFighting)
+            {
+                if (IsArmyDead(_country1, _country2))
+                {
+                    isFighting = false;
+                }
                 else
-                    Attack(_countryTwo, _countryOne);
+                {
+                    Attack(_country1, _country2);
+                }
+
+                if (IsArmyDead(_country1, _country2))
+                {
+                    isFighting = false;
+                }
+                else
+                {
+                    Attack(_country2, _country1);
+                }
             }
         }
 
@@ -42,7 +52,7 @@ namespace _10_War
         {
             int indexAtacker = UserUtils.GenerateRandomNumber(attackerCountry.SoldiersCount);
             int indexDefender = UserUtils.GenerateRandomNumber(defenderCountry.SoldiersCount);
-            Soldier attackerSoldier= attackerCountry.GetSoldier(indexAtacker);
+            Soldier attackerSoldier = attackerCountry.GetSoldier(indexAtacker);
             Soldier defenderSoldier = defenderCountry.GetSoldier(indexDefender);
 
             Console.WriteLine($"Солдат {attackerSoldier.Name} '{attackerCountry.Name}' атакует");
@@ -79,6 +89,7 @@ namespace _10_War
 
             public string Name { get; private set; }
             public int SoldiersCount => _army.Count;
+
             public Soldier GetSoldier(int index) => _army[index];
 
             public void CheckForDeads()
@@ -111,14 +122,14 @@ namespace _10_War
                     dodge = chances[UserUtils.GenerateRandomNumber(chances.Length)];
                     critChance = chances[UserUtils.GenerateRandomNumber(chances.Length)];
 
-                    _army.Add(new Soldier(hp, damage, dodge, critChance,i.ToString()));
+                    _army.Add(new Soldier(hp, damage, dodge, critChance, i.ToString()));
                 }
             }
         }
 
         public class Soldier
         {
-            public Soldier(int health, int damage, double dodge, double critChance,string name)
+            public Soldier(int health, int damage, double dodge, double critChance, string name)
             {
                 Health = health;
                 Damage = damage;
@@ -132,9 +143,8 @@ namespace _10_War
             public int Damage { get; private set; }
             public double DodgeChance { get; private set; }
             public double CritChance { get; private set; }
-
             public bool IsDead => Health <= 0;
-            
+
             public void Shoot(Soldier soldier)
             {
                 if (UserUtils.GenerateRandomDouble() <= soldier.DodgeChance)
