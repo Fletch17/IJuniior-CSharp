@@ -16,17 +16,17 @@
         {
             _aviaries = new List<Aviary>
             {
-                new Aviary(5, AnimalType.Tiger),
-                new Aviary(6, AnimalType.Cow),
-                new Aviary(7, AnimalType.Dog),
-                new Aviary(8, AnimalType.Snake),
-                new Aviary(9, AnimalType.Horse)
+                new Aviary(5, new Tiger(),"Вольер с тиграми"),
+                new Aviary(6, new Cow(),"Вольер с коровами"),
+                new Aviary(7, new Dog(),"Вольер с собаками"),
+                new Aviary(8, new Snake(),"Вольер со змеями"),
+                new Aviary(9, new Horse(),"Вольер с лошадьми")
             };
         }
 
         public void Run()
         {
-            const string CommandGoToVolier = "1";
+            const string CommandGoToAviary = "1";
             const string CommandExit = "2";
 
             bool isProgrammWork = true;
@@ -34,15 +34,15 @@
 
             while (isProgrammWork)
             {
-                Console.WriteLine($"{CommandGoToVolier}. Подойти к вольеру.");
+                Console.WriteLine($"{CommandGoToAviary}. Подойти к вольеру.");
                 Console.WriteLine($"{CommandExit}. Выйти.");
                 Console.Write("Ваш выбор: ");
                 userInput = Console.ReadLine();
 
                 switch (userInput)
                 {
-                    case CommandGoToVolier:
-                        GoToVolier();
+                    case CommandGoToAviary:
+                        GoToAviary();
                         break;
                     case CommandExit:
                         isProgrammWork = false;
@@ -62,7 +62,7 @@
             }
         }
 
-        private void GoToVolier()
+        private void GoToAviary()
         {
             bool isCorrectInput = false;
             string userInput;
@@ -97,20 +97,12 @@
     {
         private List<Animal> _animals;
 
-        public Aviary(int animalsCount, AnimalType animalType)
+        public Aviary(int animalsCount, Animal animal, string name)
         {
             _animals = new List<Animal>();
+            Name = name;
 
-            FillAviary(animalsCount, animalType);
-
-            if (animalsCount > 0)
-            {
-                Name = _animals[0].Name;
-            }
-            else
-            {
-                Name = "Пусто";
-            }
+            FillAviary(animalsCount, animal);
         }
 
         public string Name { get; private set; }
@@ -144,30 +136,11 @@
             Console.WriteLine($"Вольер с '{Name}' {_animals.Count} ед. из них {maleCount} пола '{maleSymbol}' и {femaleCount} пола '{femaleSymbol}'.");
         }
 
-        private void FillAviary(int animalsCount, AnimalType animalType)
+        private void FillAviary(int animalsCount, Animal animal)
         {
             for (int i = 0; i < animalsCount; i++)
             {
-                if (animalType == AnimalType.Tiger)
-                {
-                    _animals.Add(new Tiger());
-                }
-                else if (animalType == AnimalType.Cow)
-                {
-                    _animals.Add(new Cow());
-                }
-                else if (animalType == AnimalType.Snake)
-                {
-                    _animals.Add(new Snake());
-                }
-                else if (animalType == AnimalType.Horse)
-                {
-                    _animals.Add(new Horse());
-                }
-                else if (animalType == AnimalType.Dog)
-                {
-                    _animals.Add(new Dog());
-                }
+                _animals.Add(animal.Clone(animal));
             }
         }
     }
@@ -179,6 +152,9 @@
             Name = "Лошадь";
             Voice = "Фр-фр-фр";
         }
+
+        public override Animal Clone(Animal animal) => new Horse();
+
     }
 
     public class Dog : Animal
@@ -188,6 +164,9 @@
             Name = "Собака";
             Voice = "Гав-гав";
         }
+
+        public override Animal Clone(Animal animal) => new Dog();
+
     }
 
     public class Snake : Animal
@@ -197,6 +176,9 @@
             Name = "Змея";
             Voice = "ШШшшшш..";
         }
+
+        public override Animal Clone(Animal animal) => new Snake();
+
     }
 
     public class Cow : Animal
@@ -206,6 +188,9 @@
             Name = "Корова";
             Voice = "Муууу..";
         }
+
+        public override Animal Clone(Animal animal) => new Cow();
+
     }
 
     public class Tiger : Animal
@@ -215,38 +200,32 @@
             Name = "Тигр";
             Voice = "РРРрррр..";
         }
+
+        public override Animal Clone(Animal animal) => new Tiger();
     }
 
-    public class Animal
+    public abstract class Animal
     {
-        protected static Random s_random;
+        private static Random _s_random = new Random();
 
         protected string[] SexArray;
+
+        public Animal()
+        {
+            SexArray = new string[] { "М", "Ж" };
+            Sex = GetRandomSex();
+        }
 
         public string Name { get; protected set; }
         public string Sex { get; protected set; }
         public string Voice { get; protected set; }
 
-        public Animal()
-        {
-            s_random = new Random();
-            SexArray = new string[] { "М", "Ж" };
-            Sex = GetRandomSex();
-        }
+        public abstract Animal Clone(Animal animal);
 
         private string GetRandomSex()
         {
-            int index = s_random.Next(SexArray.Length);
+            int index = _s_random.Next(SexArray.Length);
             return SexArray[index];
         }
-    }
-
-    public enum AnimalType
-    {
-        Tiger,
-        Cow,
-        Snake,
-        Dog,
-        Horse
     }
 }
