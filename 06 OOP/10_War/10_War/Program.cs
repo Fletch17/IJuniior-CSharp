@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
-
-namespace _10_War
+﻿namespace _10_War
 {
     internal class Program
     {
@@ -57,7 +54,7 @@ namespace _10_War
 
             Console.WriteLine($"Солдат {attackerSoldier.Name} '{attackerCountry.Name}' атакует");
             attackerSoldier.Shoot(defenderSoldier);
-            defenderCountry.CheckForDeads();
+            defenderCountry.RemoveDeadSoldiers();
         }
 
         private bool IsArmyDead(Country firstCountry, Country secondCountry)
@@ -92,7 +89,7 @@ namespace _10_War
 
             public Soldier GetSoldier(int index) => _army[index];
 
-            public void CheckForDeads()
+            public void RemoveDeadSoldiers()
             {
                 foreach (var soldier in _army)
                 {
@@ -108,32 +105,32 @@ namespace _10_War
             private void FillArmy(int soliersCount)
             {
                 int damage;
-                int hp;
-                double dodge;
-                double critChance;
-                int[] hps = { 100, 125, 150, 300 };
-                int[] damages = { 30, 35, 40, 70 };
-                double[] chances = { 0.05, 0.1, 0.12, 0.15, 0.3, 0.5 };
+                int health;
+                double dodgeChance;
+                double criticalAtackChance;
+                int[] healthArray = { 100, 125, 150, 300 };
+                int[] damageArray = { 30, 35, 40, 70 };
+                double[] chancesArray = { 0.05, 0.1, 0.12, 0.15, 0.3, 0.5 };
 
                 for (int i = 0; i < soliersCount; i++)
                 {
-                    damage = damages[UserUtils.GenerateRandomNumber(damages.Length)];
-                    hp = hps[UserUtils.GenerateRandomNumber(hps.Length)];
-                    dodge = chances[UserUtils.GenerateRandomNumber(chances.Length)];
-                    critChance = chances[UserUtils.GenerateRandomNumber(chances.Length)];
+                    damage = damageArray[UserUtils.GenerateRandomNumber(damageArray.Length)];
+                    health = healthArray[UserUtils.GenerateRandomNumber(healthArray.Length)];
+                    dodgeChance = chancesArray[UserUtils.GenerateRandomNumber(chancesArray.Length)];
+                    criticalAtackChance = chancesArray[UserUtils.GenerateRandomNumber(chancesArray.Length)];
 
-                    _army.Add(new Soldier(hp, damage, dodge, critChance, i.ToString()));
+                    _army.Add(new Soldier(health, damage, dodgeChance, criticalAtackChance, i.ToString()));
                 }
             }
         }
 
         public class Soldier
         {
-            public Soldier(int health, int damage, double dodge, double critChance, string name)
+            public Soldier(int health, int damage, double dodgeChance, double critChance, string name)
             {
                 Health = health;
                 Damage = damage;
-                DodgeChance = dodge;
+                DodgeChance = dodgeChance;
                 CritChance = critChance;
                 Name = name;
             }
@@ -158,7 +155,7 @@ namespace _10_War
 
             private void TakeDamage(int damage)
             {
-                if (Health - damage < 0)
+                if (Health < damage)
                 {
                     Health = 0;
                 }
