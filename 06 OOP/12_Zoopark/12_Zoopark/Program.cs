@@ -140,7 +140,7 @@
         {
             for (int i = 0; i < animalsCount; i++)
             {
-                _animals.Add(animal.Clone(animal));
+                _animals.Add(animal.Clone());
             }
         }
     }
@@ -153,7 +153,7 @@
             Voice = "Фр-фр-фр";
         }
 
-        public override Animal Clone(Animal animal) => new Horse();
+        public override Animal Clone() => new Horse();
 
     }
 
@@ -165,7 +165,7 @@
             Voice = "Гав-гав";
         }
 
-        public override Animal Clone(Animal animal) => new Dog();
+        public override Animal Clone() => new Dog();
 
     }
 
@@ -177,7 +177,7 @@
             Voice = "ШШшшшш..";
         }
 
-        public override Animal Clone(Animal animal) => new Snake();
+        public override Animal Clone() => new Snake();
 
     }
 
@@ -189,7 +189,7 @@
             Voice = "Муууу..";
         }
 
-        public override Animal Clone(Animal animal) => new Cow();
+        public override Animal Clone() => new Cow();
 
     }
 
@@ -201,7 +201,7 @@
             Voice = "РРРрррр..";
         }
 
-        public override Animal Clone(Animal animal) => new Tiger();
+        public override Animal Clone() => new Tiger();
     }
 
     public abstract class Animal
@@ -220,7 +220,7 @@
         public string Sex { get; protected set; }
         public string Voice { get; protected set; }
 
-        public abstract Animal Clone(Animal animal);
+        public abstract Animal Clone();
 
         private string GetRandomSex()
         {

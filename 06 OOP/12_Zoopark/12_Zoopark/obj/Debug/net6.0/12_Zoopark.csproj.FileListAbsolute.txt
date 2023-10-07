@@ -13,3 +13,18 @@ C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\refint\12_Zoo
 C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.pdb
 C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.genruntimeconfig.cache
 C:\Users\sylar\source\repos\12_Zoopark\12_Zoopark\obj\Debug\net6.0\ref\12_Zoopark.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.exe
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.deps.json
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\bin\Debug\net6.0\12_Zoopark.pdb
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\refint\12_Zoopark.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.pdb
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\12_Zoopark.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\12_Zoopark\12_Zoopark\obj\Debug\net6.0\ref\12_Zoopark.dll
