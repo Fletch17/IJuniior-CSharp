@@ -1,0 +1,29 @@
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.AssemblyInfoInputs.cache
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.AssemblyInfo.cs
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.csproj.CoreCompileInputs.cache
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.exe
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.deps.json
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.runtimeconfig.json
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.dll
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.pdb
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.dll
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\refint\13_Autoservice.dll
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.pdb
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.genruntimeconfig.cache
+C:\Users\Dread\source\repos\13_Autoservice\13_Autoservice\obj\Debug\net6.0\ref\13_Autoservice.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.exe
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.deps.json
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\bin\Debug\net6.0\13_Autoservice.pdb
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\refint\13_Autoservice.dll
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.pdb
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\13_Autoservice.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\06 OOP\13_Autoservice\13_Autoservice\obj\Debug\net6.0\ref\13_Autoservice.dll
