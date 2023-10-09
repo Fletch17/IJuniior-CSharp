@@ -73,11 +73,11 @@
                 Console.Write("Введите номер вольера: ");
                 userInput = Console.ReadLine();
 
-                if (int.TryParse(userInput, out int index))
+                if (int.TryParse(userInput, out int number))
                 {
-                    if (index > 0 && index <= _aviaries.Count)
+                    if (number > 0 && number <= _aviaries.Count)
                     {
-                        _aviaries[index - 1].ShowInfo();
+                        _aviaries[number - 1].ShowInfo();
                         isCorrectInput = true;
                     }
                     else
@@ -102,7 +102,7 @@
             _animals = new List<Animal>();
             Name = name;
 
-            FillAviary(animalsCount, animal);
+            FillWithAnimals(animalsCount, animal);
         }
 
         public string Name { get; private set; }
@@ -136,7 +136,7 @@
             Console.WriteLine($"Вольер с '{Name}' {_animals.Count} ед. из них {maleCount} пола '{maleSymbol}' и {femaleCount} пола '{femaleSymbol}'.");
         }
 
-        private void FillAviary(int animalsCount, Animal animal)
+        private void FillWithAnimals(int animalsCount, Animal animal)
         {
             for (int i = 0; i < animalsCount; i++)
             {
@@ -147,10 +147,8 @@
 
     public class Horse : Animal
     {
-        public Horse() : base()
+        public Horse() : base("Лошадь", "Фр-фр-фр")
         {
-            Name = "Лошадь";
-            Voice = "Фр-фр-фр";
         }
 
         public override Animal Clone() => new Horse();
@@ -159,10 +157,8 @@
 
     public class Dog : Animal
     {
-        public Dog() : base()
-        {
-            Name = "Собака";
-            Voice = "Гав-гав";
+        public Dog() : base("Собака", "Гав-гав")
+        {         
         }
 
         public override Animal Clone() => new Dog();
@@ -171,10 +167,8 @@
 
     public class Snake : Animal
     {
-        public Snake() : base()
+        public Snake() : base("Змея", "ШШшшшш..")
         {
-            Name = "Змея";
-            Voice = "ШШшшшш..";
         }
 
         public override Animal Clone() => new Snake();
@@ -183,10 +177,8 @@
 
     public class Cow : Animal
     {
-        public Cow() : base()
+        public Cow() : base("Корова", "Муууу..")
         {
-            Name = "Корова";
-            Voice = "Муууу..";
         }
 
         public override Animal Clone() => new Cow();
@@ -195,10 +187,8 @@
 
     public class Tiger : Animal
     {
-        public Tiger() : base()
+        public Tiger() : base("Тигр", "РРРрррр..")
         {
-            Name = "Тигр";
-            Voice = "РРРрррр..";
         }
 
         public override Animal Clone() => new Tiger();
@@ -210,10 +200,12 @@
 
         protected string[] SexArray;
 
-        public Animal()
+        public Animal(string name, string voice)
         {
             SexArray = new string[] { "М", "Ж" };
             Sex = GetRandomSex();
+            Name = name;
+            Voice = voice;
         }
 
         public string Name { get; protected set; }
