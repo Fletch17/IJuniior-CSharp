@@ -12,18 +12,16 @@
     {
         private int _money;
         private Storage _storage;
-        private int _clientCount;
         private Queue<Client> _clients;
-        private string message;
+        private string _message;
 
         public Autoservice(int clientCount, int detailsCount)
         {
             _clients = new Queue<Client>();
-            _clientCount = clientCount;
             _storage = new Storage();
             _money = 1000;
             FillStorage(detailsCount);
-            FillClientQueue();
+            FillClientQueue(clientCount);
         }
 
         public void Work()
@@ -31,17 +29,20 @@
             const string ServeCommand = "1";
             const string RefuseCommand = "2";
             const string ExitCommand = "3";
+
             string userInput;
             bool isWork = true;
+            Client client;
 
             while (_clients.Count > 0 && isWork)
             {
+                client = _clients.Peek();
                 Console.Clear();
-                Console.WriteLine(message);
+                Console.WriteLine(_message);
                 Console.WriteLine($"Ваш баланс: {_money}");
                 _storage.ShowInfo();
                 Console.WriteLine($"Клиентов в очереди: {_clients.Count}");
-                Console.WriteLine($"У клиента поломка: {_clients.Peek().DefectDetail.Name}, цена детали {_clients.Peek().DefectDetail.Price}, цена работы {_clients.Peek().DefectDetail.WorkPrice}.\n");
+                Console.WriteLine($"У клиента поломка: {client.DefectDetail.Name}, цена детали {client.DefectDetail.Price}, цена работы {client.DefectDetail.WorkPrice}.\n");
                 Console.WriteLine($"{ServeCommand}. Обслужить клиента.");
                 Console.WriteLine($"{RefuseCommand}. Отказать клиенту.");
                 Console.WriteLine($"{ExitCommand}. Выйти из приложения.");
@@ -51,11 +52,11 @@
                 switch (userInput)
                 {
                     case ServeCommand:
-                        Serve();
+                        Serve(client);
                         break;
 
                     case RefuseCommand:
-                        Refuse();
+                        Refuse(client);
                         break;
 
                     case ExitCommand:
@@ -75,67 +76,49 @@
             }
         }
 
-        private void Refuse()
+        private void Refuse(Client client)
         {
-            message = $"Вы отказали клиенту, клиент ушел недовольным, а вы заплатили штраф {_clients.Peek().DefectDetail.WorkPrice}.";
-            _money -= _clients.Peek().DefectDetail.WorkPrice;
+            _message = $"Вы отказали клиенту, клиент ушел недовольным, а вы заплатили штраф {client.DefectDetail.WorkPrice}.";
+            _money -= client.DefectDetail.WorkPrice;
 
             _clients.Dequeue();
         }
 
-        private bool TryChooseDetail(out int index)
+        private bool TryGetDetail(Detail detail, out int index)
         {
-            bool isChossing = true;
-            string userInput;
             index = 0;
-
-            while (isChossing)
+            for (int i = 0; i < _storage.Count; i++)
             {
-                Console.Write($"Выберите номер детали:");
-                userInput = Console.ReadLine();
-
-                if (int.TryParse(userInput, out index))
+                if (_storage.GetDetail(i).Detail.Name == detail.Name)
                 {
-                    index--;
-
-                    if (index >= 0 && index < _storage.Count)
-                    {
-                        isChossing = false;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Такого номера нету.");
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Введите целое число!");
+                    index = i;
+                    return true;
                 }
             }
 
-            return _clients.Peek().DefectDetail.Name == _storage.GetDetail(index).Detail.Name ? true : false;
+            return false;
         }
 
-        private void Serve()
+        private void Serve(Client client)
         {
-            if (TryChooseDetail(out int index))
+            if (TryGetDetail(client.DefectDetail, out int index))
             {
-                message = $"Вы заменили правильную деталь и заработали: {_storage.GetDetail(index).Detail.Price} за деталь,{_storage.GetDetail(index).Detail.WorkPrice} за работу.";
-                _money += _clients.Peek().DefectDetail.WorkPrice + _clients.Peek().DefectDetail.Price;
+                _message = $"Вы заменили  {client.DefectDetail.Name} и заработали: {client.DefectDetail.Price} за деталь,{client.DefectDetail.WorkPrice} за работу.";
+                _money += client.DefectDetail.WorkPrice + client.DefectDetail.Price;
             }
             else
             {
-                message = message = $"Вы ошибочно заменили не ту деталь, разозлив клиента. Ваш штраф: {_storage.GetDetail(index).Detail.WorkPrice + _clients.Peek().DefectDetail.WorkPrice}";
-                _money -= _storage.GetDetail(index).Detail.WorkPrice + _clients.Peek().DefectDetail.WorkPrice;
+                _message = $"У Вас нет {client.DefectDetail.Name}, поэтому Вы платите клиенту неутойку {client.DefectDetail.WorkPrice}. Клиент уезжает в автосервис, написанный другим учеником.";
+                _money += client.DefectDetail.WorkPrice;
             }
 
             _storage.RemoveDetail(_storage.GetDetail(index).Detail);
             _clients.Dequeue();
         }
 
-        private void FillClientQueue()
+        private void FillClientQueue(int clientCount)
         {
-            for (int i = 0; i < _clientCount; i++)
+            for (int i = 0; i < clientCount; i++)
             {
                 _clients.Enqueue(new Client());
             }
@@ -143,11 +126,13 @@
 
         private void FillStorage(int count)
         {
+            AllDetails allDetails = new AllDetails();
+
             for (int i = 0; i < count; i++)
             {
-                int index = UserUtils.GenerateRandomNumber(AllDetails.Count);
+                int index = UserUtils.GenerateRandomNumber(allDetails.Count);
 
-                _storage.AddDetail(AllDetails.GetGetail(index));
+                _storage.AddDetail(allDetails.GetGetail(index));
             }
         }
     }
@@ -156,7 +141,7 @@
     {
         public Client()
         {
-            DefectDetail = AllDetails.GetGetail(UserUtils.GenerateRandomNumber(AllDetails.Count));
+            DefectDetail = new AllDetails().GetDefectRandomDetail;
         }
 
         public Detail DefectDetail { get; private set; }
@@ -227,21 +212,22 @@
         }
     }
 
-    public static class AllDetails
+    public class AllDetails
     {
-        private static List<Detail> _details = new List<Detail>
+        private List<Detail> _details = new List<Detail>
             {
-            new Detail("АККП", 200),
-            new Detail("МККП", 200),
-            new Detail("ГРМ", 50),
-            new Detail("Свечи", 10),
-            new Detail("Двигатель", 1000),
-            new Detail("Колодки", 30),
+            new Detail("АККП", 200,2),
+            new Detail("МККП", 200,2),
+            new Detail("ГРМ", 50,2),
+            new Detail("Свечи", 10,2),
+            new Detail("Двигатель", 1000,2),
+            new Detail("Колодки", 30,2),
         };
 
-        public static int Count => _details.Count;
+        public int Count => _details.Count;
 
-        public static Detail GetGetail(int index) => _details[index];
+        public Detail GetGetail(int index) => _details[index];
+        public Detail GetDefectRandomDetail => _details[UserUtils.GenerateRandomNumber(_details.Count)];
     }
 
     public class Stack
@@ -268,11 +254,11 @@
 
     public class Detail
     {
-        public Detail(string name, int price)
+        public Detail(string name, int price, int repairRate)
         {
             Name = name;
             Price = price;
-            WorkPrice = price / 2;
+            WorkPrice = price / repairRate;
         }
 
         public string Name { get; private set; }
@@ -282,9 +268,10 @@
 
     public class UserUtils
     {
+        private static Random s_random = new Random();
         public static int GenerateRandomNumber(int maxValue)
         {
-            return new Random().Next(maxValue);
+            return s_random.Next(maxValue);
         }
     }
 }
