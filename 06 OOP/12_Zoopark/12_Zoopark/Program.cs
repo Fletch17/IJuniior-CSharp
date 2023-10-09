@@ -203,7 +203,7 @@
         public Animal(string name, string voice)
         {
             Gender = new string[] { "М", "Ж" };
-            Sex = GetRandomSex();
+            Sex = GetGender();
             Name = name;
             Voice = voice;
         }
@@ -214,7 +214,7 @@
 
         public abstract Animal Clone();
 
-        private string GetRandomSex()
+        private string GetGender()
         {
             int index = s_random.Next(Gender.Length);
             return Gender[index];
