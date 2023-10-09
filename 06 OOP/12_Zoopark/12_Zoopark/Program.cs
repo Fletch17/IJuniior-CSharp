@@ -196,13 +196,13 @@
 
     public abstract class Animal
     {
-        private static Random _s_random = new Random();
+        private static Random s_random = new Random();
 
-        protected string[] SexArray;
+        protected string[] Gender;
 
         public Animal(string name, string voice)
         {
-            SexArray = new string[] { "М", "Ж" };
+            Gender = new string[] { "М", "Ж" };
             Sex = GetRandomSex();
             Name = name;
             Voice = voice;
@@ -216,8 +216,8 @@
 
         private string GetRandomSex()
         {
-            int index = _s_random.Next(SexArray.Length);
-            return SexArray[index];
+            int index = s_random.Next(Gender.Length);
+            return Gender[index];
         }
     }
 }
