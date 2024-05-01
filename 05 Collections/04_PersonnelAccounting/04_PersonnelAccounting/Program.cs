@@ -9,7 +9,8 @@
             const string CommandDeleteDossier = "3";
             const string CommandExit = "4";
 
-            Dictionary<string, string> dossiers = new Dictionary<string, string>();
+            List<string> names = new List<string>();
+            Dictionary<string, List<string>> dossiers = new Dictionary<string, List<string>>();
             bool isProgramWork = true;
             string userInput;
 
@@ -42,36 +43,68 @@
             }
         }
 
-        static void AddDossier(Dictionary<string, string> dossiers)
+        static void AddDossier(Dictionary<string, List<string>> dossiers)
         {
             Console.Write("Введите ФИО: ");
             string fullName = Console.ReadLine();
             Console.Write("Введите профессию: ");
             string profession = Console.ReadLine();
-            dossiers.Add(fullName, profession);
+
+            if (dossiers.ContainsKey(profession))
+            {
+                dossiers[profession].Add(fullName);
+            }
+            else
+            {
+                dossiers.Add(profession, new List<string>() { fullName });
+            }
         }
 
-        static void DeleteDossier(Dictionary<string, string> dossiers)
+        static void DeleteDossier(Dictionary<string, List<string>> dossiers)
         {
-            Console.Write("Введите номер работника: ");
-            string userInput = Console.ReadLine();
-            bool isInt = int.TryParse(userInput, out int number);
+            Console.Write("Введите ФИО работника: ");
+            string fullName = Console.ReadLine();
+            Console.Write("Введите профессию работника: ");
+            string profession = Console.ReadLine();
 
-            if (isInt)
+            if(dossiers.ContainsKey(profession))
             {
-                if (number < dossiers.Count && number >= 0)
+                if (dossiers[profession].Contains(fullName))
                 {
-                    dossiers.Remove(dossiers.Keys.ElementAt(number));
+                    if(dossiers[profession].Count>1)
+                    {
+                        dossiers[profession].Remove(fullName);
+                    }
+                    else
+                    {
+                        dossiers.Remove(profession);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Такого работника нет.");
                 }
             }
+            else
+            {
+                Console.WriteLine("Работников с такой профессией нет.");
+            }
         }
 
-        static void ShowAllDossiers(Dictionary<string, string> dossiers)
+        static void ShowAllDossiers(Dictionary<string, List<string>> dossiers)
         {
-            for (int i = 0; i < dossiers.Count; i++)
+            int number = 1;
+
+            foreach (var dossier in dossiers)
             {
-                Console.WriteLine(i + ". " + dossiers.ElementAt(i).Key + " - " + dossiers.ElementAt(i).Value);
+                for (int i = 0; i < dossier.Value.Count; i++)
+                {
+                    Console.WriteLine(number + ". " + dossier.Value[i] + " - " + dossier.Key);
+                    number++;
+                }
             }
+
+            Console.WriteLine();
         }
     }
 }

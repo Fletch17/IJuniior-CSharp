@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\D
 C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.pdb
 C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\ref\04_PersonnelAccounting.dll
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.exe
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.deps.json
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.dll
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\bin\Debug\net6.0\04_PersonnelAccounting.pdb
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.dll
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\refint\04_PersonnelAccounting.dll
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.pdb
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\04_PersonnelAccounting.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\05 Collections\04_PersonnelAccounting\04_PersonnelAccounting\obj\Debug\net6.0\ref\04_PersonnelAccounting.dll
