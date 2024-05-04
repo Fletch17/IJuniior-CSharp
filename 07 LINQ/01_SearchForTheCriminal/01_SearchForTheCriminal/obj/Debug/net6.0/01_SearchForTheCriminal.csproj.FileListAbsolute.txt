@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.exe
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.deps.json
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.runtimeconfig.json
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.dll
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.pdb
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.dll
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\refint\01_SearchForTheCriminal.dll
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.pdb
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\ref\01_SearchForTheCriminal.dll
