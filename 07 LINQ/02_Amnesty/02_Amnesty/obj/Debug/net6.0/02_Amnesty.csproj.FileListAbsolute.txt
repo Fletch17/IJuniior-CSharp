@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\bin\Debug\net6.0\02_Amnesty.exe
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\bin\Debug\net6.0\02_Amnesty.deps.json
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\bin\Debug\net6.0\02_Amnesty.runtimeconfig.json
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\bin\Debug\net6.0\02_Amnesty.dll
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\bin\Debug\net6.0\02_Amnesty.pdb
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\02_Amnesty.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\02_Amnesty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\02_Amnesty.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\02_Amnesty.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\02_Amnesty.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\02_Amnesty.dll
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\refint\02_Amnesty.dll
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\02_Amnesty.pdb
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\02_Amnesty.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\02_Amnesty\02_Amnesty\obj\Debug\net6.0\ref\02_Amnesty.dll
