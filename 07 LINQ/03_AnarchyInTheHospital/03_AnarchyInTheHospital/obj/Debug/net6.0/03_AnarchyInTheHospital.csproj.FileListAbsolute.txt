@@ -1,0 +1,15 @@
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\03_AnarchyInTheHospital.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\03_AnarchyInTheHospital.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\03_AnarchyInTheHospital.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\03_AnarchyInTheHospital.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\03_AnarchyInTheHospital.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\bin\Debug\net6.0\03_AnarchyInTheHospital.exe
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\bin\Debug\net6.0\03_AnarchyInTheHospital.deps.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\bin\Debug\net6.0\03_AnarchyInTheHospital.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\bin\Debug\net6.0\03_AnarchyInTheHospital.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\bin\Debug\net6.0\03_AnarchyInTheHospital.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\03_AnarchyInTheHospital.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\refint\03_AnarchyInTheHospital.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\03_AnarchyInTheHospital.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\03_AnarchyInTheHospital.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\03_AnarchyInTheHospital\03_AnarchyInTheHospital\obj\Debug\net6.0\ref\03_AnarchyInTheHospital.dll
