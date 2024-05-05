@@ -6,6 +6,7 @@ namespace _02_Amnesty
     {
         static void Main(string[] args)
         {
+            string crime = "Антиправительственное";
             List<Criminal> criminals = new List<Criminal>()
             {new Criminal("Гоша", "Воровство"),
             new Criminal("Тоша", "Антиправительственное"),
@@ -13,13 +14,18 @@ namespace _02_Amnesty
             new Criminal("Андрей", "Антиправительственное"),
             new Criminal("Дмитрий", "Убийство") };
 
-            var filteredCriminals = from Criminal criminal in criminals 
-                                    where criminal.Crime!= "Антиправительственное"
+            var filteredCriminals = from Criminal criminal in criminals
+                                    where IsCrimeNotTheSame(criminal, crime)
                                     select criminal;
 
             ShowInfo("До амнистии:", criminals);
             Console.WriteLine();
             ShowInfo("После амнистии:", filteredCriminals);
+        }
+
+        static bool IsCrimeNotTheSame(Criminal criminal, string crime)
+        {
+            return criminal.Crime != crime;
         }
 
         static void ShowInfo(string message, IEnumerable<Criminal> criminals)

@@ -7,7 +7,7 @@
             int height;
             int weight;
             string nationality;
-            bool prorammWork = true;
+            bool isProrammWork = true;
             List<Criminal> criminals = new List<Criminal>()
             {
             new Criminal("Олег", false, 180,100,"русский"),
@@ -18,7 +18,7 @@
             new Criminal("Артем", false, 160,80,"белорус"),
             };
 
-            while (prorammWork)
+            while (isProrammWork)
             {
                 Console.WriteLine("Введите данные");
                 Console.Write("Рост: ");
@@ -29,8 +29,8 @@
                 nationality = Console.ReadLine();
 
                 var filteredCriminals = from Criminal criminal in criminals
-                                        where criminal.Height == height && criminal.Weight == weight &&
-                                        criminal.Nationality == nationality && criminal.IsImprisoned == false
+                                        where IsHeightSame(criminal, height) && IsWeightSame(criminal, weight) &&
+                                        IsNationalitySame(criminal, nationality) && !criminal.IsImprisoned
                                         select criminal;
 
                 foreach (var criminal in filteredCriminals)
@@ -39,6 +39,21 @@
                 }
             }
         }
+
+        static bool IsNationalitySame(Criminal criminal, string nationality)
+        {
+            return criminal.Nationality == nationality;
+        }
+
+        static bool IsHeightSame(Criminal criminal, int height)
+        {
+            return criminal.Height == height;
+        }
+
+        static bool IsWeightSame(Criminal criminal, int weight)
+            {
+            return criminal.Weight == weight;
+            }
 
         static int GetInt()
         {
