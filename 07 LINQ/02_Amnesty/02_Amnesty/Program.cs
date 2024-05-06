@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace _02_Amnesty
+﻿namespace _02_Amnesty
 {
     internal class Program
     {
@@ -14,18 +12,10 @@ namespace _02_Amnesty
             new Criminal("Андрей", "Антиправительственное"),
             new Criminal("Дмитрий", "Убийство") };
 
-            var filteredCriminals = from Criminal criminal in criminals
-                                    where IsCrimeNotTheSame(criminal, crime)
-                                    select criminal;
-
             ShowInfo("До амнистии:", criminals);
+            criminals = criminals.Where(criminal => criminal.Crime != crime).ToList();
             Console.WriteLine();
-            ShowInfo("После амнистии:", filteredCriminals);
-        }
-
-        static bool IsCrimeNotTheSame(Criminal criminal, string crime)
-        {
-            return criminal.Crime != crime;
+            ShowInfo("После амнистии:", criminals);
         }
 
         static void ShowInfo(string message, IEnumerable<Criminal> criminals)

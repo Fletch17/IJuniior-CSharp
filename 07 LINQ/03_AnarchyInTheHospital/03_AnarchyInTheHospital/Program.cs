@@ -64,9 +64,7 @@
             Console.Write("Введите название болезни: ");
             disease = Console.ReadLine();
 
-            var filteredPatients = from Patient patient in patients
-                                   where patient.Disease == disease
-                                   select patient;
+            var filteredPatients = patients.Where(patient => patient.Disease == disease);                    
 
             ShowPatients(filteredPatients.ToList());
         }

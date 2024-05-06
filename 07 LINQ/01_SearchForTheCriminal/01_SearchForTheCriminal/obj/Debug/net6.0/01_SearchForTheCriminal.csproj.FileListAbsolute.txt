@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj
 C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.pdb
 C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\ref\01_SearchForTheCriminal.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.exe
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.deps.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\bin\Debug\net6.0\01_SearchForTheCriminal.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\refint\01_SearchForTheCriminal.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\01_SearchForTheCriminal.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\01_SearchForTheCriminal\01_SearchForTheCriminal\obj\Debug\net6.0\ref\01_SearchForTheCriminal.dll

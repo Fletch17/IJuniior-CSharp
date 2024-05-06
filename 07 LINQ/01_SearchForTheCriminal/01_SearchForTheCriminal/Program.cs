@@ -28,10 +28,8 @@
                 Console.Write("Национальность: ");
                 nationality = Console.ReadLine();
 
-                var filteredCriminals = from Criminal criminal in criminals
-                                        where IsHeightSame(criminal, height) && IsWeightSame(criminal, weight) &&
-                                        IsNationalitySame(criminal, nationality) && !criminal.IsImprisoned
-                                        select criminal;
+                var filteredCriminals = criminals.Where(criminal => criminal.Height.Equals(height) && criminal.Weight.Equals(weight) &&
+                criminal.Nationality.Equals(nationality) && !criminal.IsImprisoned);
 
                 foreach (var criminal in filteredCriminals)
                 {
@@ -39,21 +37,6 @@
                 }
             }
         }
-
-        static bool IsNationalitySame(Criminal criminal, string nationality)
-        {
-            return criminal.Nationality == nationality;
-        }
-
-        static bool IsHeightSame(Criminal criminal, int height)
-        {
-            return criminal.Height == height;
-        }
-
-        static bool IsWeightSame(Criminal criminal, int weight)
-            {
-            return criminal.Weight == weight;
-            }
 
         static int GetInt()
         {
