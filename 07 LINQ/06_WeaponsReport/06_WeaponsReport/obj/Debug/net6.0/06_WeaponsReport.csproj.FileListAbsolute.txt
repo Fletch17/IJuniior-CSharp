@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.exe
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.deps.json
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.runtimeconfig.json
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.dll
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.pdb
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.dll
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\refint\06_WeaponsReport.dll
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.pdb
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\ref\06_WeaponsReport.dll
