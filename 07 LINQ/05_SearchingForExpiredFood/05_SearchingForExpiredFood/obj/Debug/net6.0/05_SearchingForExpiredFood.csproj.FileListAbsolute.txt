@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.exe
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.deps.json
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.runtimeconfig.json
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.dll
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.pdb
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.dll
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\refint\05_SearchingForExpiredFood.dll
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.pdb
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\ref\05_SearchingForExpiredFood.dll
