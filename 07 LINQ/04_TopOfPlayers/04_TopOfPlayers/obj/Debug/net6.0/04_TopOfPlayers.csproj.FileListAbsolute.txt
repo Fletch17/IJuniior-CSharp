@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.exe
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.deps.json
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.runtimeconfig.json
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.dll
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.pdb
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.dll
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\refint\04_TopOfPlayers.dll
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.pdb
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\ref\04_TopOfPlayers.dll
