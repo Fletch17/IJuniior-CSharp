@@ -1,0 +1,15 @@
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\bin\Debug\net6.0\07_UnificationOfTroops.exe
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\bin\Debug\net6.0\07_UnificationOfTroops.deps.json
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\bin\Debug\net6.0\07_UnificationOfTroops.runtimeconfig.json
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\bin\Debug\net6.0\07_UnificationOfTroops.dll
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\bin\Debug\net6.0\07_UnificationOfTroops.pdb
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\07_UnificationOfTroops.csproj.AssemblyReference.cache
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\07_UnificationOfTroops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\07_UnificationOfTroops.AssemblyInfoInputs.cache
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\07_UnificationOfTroops.AssemblyInfo.cs
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\07_UnificationOfTroops.csproj.CoreCompileInputs.cache
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\07_UnificationOfTroops.dll
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\refint\07_UnificationOfTroops.dll
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\07_UnificationOfTroops.pdb
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\07_UnificationOfTroops.genruntimeconfig.cache
+C:\Users\Sergei\source\repos\07_UnificationOfTroops\07_UnificationOfTroops\obj\Debug\net6.0\ref\07_UnificationOfTroops.dll

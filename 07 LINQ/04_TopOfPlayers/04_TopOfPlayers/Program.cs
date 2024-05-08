@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            int playersCount = 3;
             List<Player> players = new List<Player> {
             new Player ("Tom", 15, 24),
             new Player ("Jack", 17, 20),
@@ -19,8 +20,8 @@
             List<Player> topLevelPlayers = new List<Player>();
             List<Player> topPowerPlayers = new List<Player>();
 
-            topLevelPlayers = players.OrderByDescending(player => player.Level).Take(3).ToList();
-            topPowerPlayers = players.OrderByDescending(player => player.Power).Take(3).ToList();
+            topLevelPlayers = players.OrderByDescending(player => player.Level).Take(playersCount).ToList();
+            topPowerPlayers = players.OrderByDescending(player => player.Power).Take(playersCount).ToList();
 
             ShowList("Список игроков:", players);
             ShowList("Топ по уровню:", topLevelPlayers);
@@ -42,15 +43,15 @@
 
     public class Player
     {
-        public string Name { get; private set; }
-        public int Level { get; private set; }
-        public int Power { get; private set; }
-
         public Player(string name, int level, int power)
         {
             Name = name;
             Level = level;
             Power = power;
         }
+
+        public string Name { get; private set; }
+        public int Level { get; private set; }
+        public int Power { get; private set; }               
     }
 }
