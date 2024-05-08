@@ -27,11 +27,6 @@
 
     public class Soldier
     {
-        public string Name { get; private set; }
-        public string Weapon { get; private set; }
-        public string Rank { get; private set; }
-        public int LengthOfMilitaryService { get; private set; }
-
         public Soldier(string name, string weapon, string rank, int lengthOfMilitaryService)
         {
             Name = name;
@@ -39,5 +34,10 @@
             Rank = rank;
             LengthOfMilitaryService = lengthOfMilitaryService;
         }
+
+        public string Name { get; private set; }
+        public string Weapon { get; private set; }
+        public string Rank { get; private set; }
+        public int LengthOfMilitaryService { get; private set; }
     }
 }

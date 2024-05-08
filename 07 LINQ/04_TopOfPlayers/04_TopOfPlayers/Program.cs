@@ -19,8 +19,8 @@
             List<Player> topLevelPlayers = new List<Player>();
             List<Player> topPowerPlayers = new List<Player>();
 
-            topLevelPlayers = players.OrderBy(player => player.Level).ToList();
-            topPowerPlayers = players.OrderBy(player => player.Power).ToList();
+            topLevelPlayers = players.OrderByDescending(player => player.Level).Take(3).ToList();
+            topPowerPlayers = players.OrderByDescending(player => player.Power).Take(3).ToList();
 
             ShowList("Список игроков:", players);
             ShowList("Топ по уровню:", topLevelPlayers);

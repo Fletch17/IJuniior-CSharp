@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFo
 C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.pdb
 C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\ref\05_SearchingForExpiredFood.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.exe
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.deps.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\bin\Debug\net6.0\05_SearchingForExpiredFood.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\refint\05_SearchingForExpiredFood.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\05_SearchingForExpiredFood.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\05_SearchingForExpiredFood\05_SearchingForExpiredFood\obj\Debug\net6.0\ref\05_SearchingForExpiredFood.dll

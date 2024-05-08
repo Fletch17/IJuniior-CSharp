@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\
 C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.pdb
 C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\ref\06_WeaponsReport.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.exe
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.deps.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\bin\Debug\net6.0\06_WeaponsReport.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\refint\06_WeaponsReport.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\06_WeaponsReport.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\06_WeaponsReport\06_WeaponsReport\obj\Debug\net6.0\ref\06_WeaponsReport.dll

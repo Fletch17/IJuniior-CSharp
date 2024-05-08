@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sergei\\source\\repos\\04_TopOfPlayers\\04_TopOfPlayers\\04_TopOfPlayers.csproj",
+      "projectUniqueName": "E:\\Projects GitHub\\IJuniior-CSharp\\07 LINQ\\04_TopOfPlayers\\04_TopOfPlayers\\04_TopOfPlayers.csproj",
       "projectName": "04_TopOfPlayers",
-      "projectPath": "C:\\Users\\Sergei\\source\\repos\\04_TopOfPlayers\\04_TopOfPlayers\\04_TopOfPlayers.csproj",
+      "projectPath": "E:\\Projects GitHub\\IJuniior-CSharp\\07 LINQ\\04_TopOfPlayers\\04_TopOfPlayers\\04_TopOfPlayers.csproj",
       "packagesPath": "C:\\Users\\Sergei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sergei\\source\\repos\\04_TopOfPlayers\\04_TopOfPlayers\\obj\\",
+      "outputPath": "E:\\Projects GitHub\\IJuniior-CSharp\\07 LINQ\\04_TopOfPlayers\\04_TopOfPlayers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

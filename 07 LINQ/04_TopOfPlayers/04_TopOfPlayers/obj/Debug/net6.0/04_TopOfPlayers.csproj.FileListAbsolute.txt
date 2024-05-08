@@ -13,3 +13,18 @@ C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\re
 C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.pdb
 C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.genruntimeconfig.cache
 C:\Users\Sergei\source\repos\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\ref\04_TopOfPlayers.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.exe
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.deps.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.runtimeconfig.json
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\bin\Debug\net6.0\04_TopOfPlayers.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.csproj.AssemblyReference.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.AssemblyInfoInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.AssemblyInfo.cs
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.csproj.CoreCompileInputs.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\refint\04_TopOfPlayers.dll
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.pdb
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\04_TopOfPlayers.genruntimeconfig.cache
+E:\Projects GitHub\IJuniior-CSharp\07 LINQ\04_TopOfPlayers\04_TopOfPlayers\obj\Debug\net6.0\ref\04_TopOfPlayers.dll

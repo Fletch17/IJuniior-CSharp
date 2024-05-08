@@ -25,16 +25,16 @@
     }
 
     class Product
-    {
-        public string Name { get; private set; }
-        public int Year { get; private set; }
-        public int ExpirationDate { get; private set; }
-
+    {        
         public Product(string name, int year, int srokGodnosti)
         {
             Name = name;
             Year = year;
             ExpirationDate = srokGodnosti;
         }
+
+        public string Name { get; private set; }
+        public int Year { get; private set; }
+        public int ExpirationDate { get; private set; }
     }
 }
